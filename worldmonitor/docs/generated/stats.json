@@ -1,0 +1,411 @@
+{
+  "_generated": "scripts/generate-inventory-facts.mjs — build artifact; do not commit",
+  "layerDefinitions": 60,
+  "lockedLayerDefinitions": 1,
+  "lockedLayerKeys": [
+    "resilienceScore"
+  ],
+  "tier1Countries": 31,
+  "rankableUniverseCountries": 196,
+  "variantLayers": {
+    "full": 41,
+    "tech": 13,
+    "finance": 19,
+    "happy": 6,
+    "commodity": 20,
+    "energy": 20
+  },
+  "variantCount": 6,
+  "componentTopLevelTsFiles": 214,
+  "serviceTopLevelEntries": 298,
+  "apiEndpointEntries": 101,
+  "panelClasses": 115,
+  "protoFiles": 339,
+  "protoServices": 38,
+  "protoDomainFolders": 39,
+  "openapiServiceSpecs": 38,
+  "serverDomains": 37,
+  "localeCodes": [
+    "ar",
+    "bg",
+    "cs",
+    "de",
+    "el",
+    "en",
+    "es",
+    "fa",
+    "fr",
+    "hi",
+    "hr",
+    "hu",
+    "it",
+    "ja",
+    "ko",
+    "nl",
+    "pl",
+    "pt",
+    "ro",
+    "ru",
+    "sv",
+    "sw",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "zh",
+    "zh-TW"
+  ],
+  "locales": 28,
+  "workflows": [
+    "analytics-collector-monitor.yml",
+    "build-desktop.yml",
+    "china-decision-parity-live.yml",
+    "ci-health-scan.yml",
+    "codeql.yml",
+    "contributor-trust.yml",
+    "convex-deploy.yml",
+    "crawlable-pulse-refresh.yml",
+    "crawlable-pulse-rehearsal.yml",
+    "deploy-gate.yml",
+    "deploy-railway-reconcile-control.yml",
+    "deploy-worker.yml",
+    "desktop-release-train.yml",
+    "docker-publish.yml",
+    "e2e-visual.yml",
+    "feed-validation.yml",
+    "github-stars-refresh.yml",
+    "indexnow-submit.yml",
+    "lint-code.yml",
+    "live-api-cache-auth.yml",
+    "live-video-source-audit.yml",
+    "mcp-live-smoke.yml",
+    "mcp-preset-liveness.yml",
+    "openrouter-free-models-live.yml",
+    "orphaned-stacked-merge-monitor.yml",
+    "perf-style-layout-budget.yml",
+    "postmerge-deploy-monitor.yml",
+    "pro-bundle-freshness.yml",
+    "proto-check.yml",
+    "publish-cli.yml",
+    "publish-e2e-screenshots.yml",
+    "publish-go.yml",
+    "publish-mcp-registry.yml",
+    "publish-python.yml",
+    "publish-ruby.yml",
+    "publish-rust.yml",
+    "pulse-freshness-monitor.yml",
+    "railway-deploy-drift.yml",
+    "railway-deploy-trigger-watchdog.yml",
+    "railway-deploy-trigger.yml",
+    "railway-reconcile-manual-recovery.yml",
+    "railway-registry-sync.yml",
+    "resilience-snapshot-refresh.yml",
+    "rust-sdk.yml",
+    "security-audit.yml",
+    "sentry-resolve-pin-audit.yml",
+    "seo-gsc-weekly.yml",
+    "stacked-merge-guard.yml",
+    "test-linux-app.yml",
+    "test.yml",
+    "tps-open-data-live.yml",
+    "typecheck.yml",
+    "umami-storage-monitor.yml"
+  ],
+  "workflowCount": 53,
+  "freshnessSources": 40,
+  "freshnessRequiredForRisk": 2,
+  "feedDefinitions": 706,
+  "sourceAttribution": {
+    "activeHosts": 817,
+    "structuredHosts": 380,
+    "feedHosts": 468,
+    "operationalStatusHosts": 30,
+    "providerCount": 802,
+    "observedHosts": 945,
+    "reviewNeeded": 705
+  },
+  "sourceAttributionHosts": 817,
+  "airportCount": 115,
+  "stockExchangeCount": 29,
+  "centralBankInstitutionCount": 14,
+  "telegramFullEnabledChannels": 63,
+  "telegramFullTierCounts": {
+    "1": 8,
+    "2": 25,
+    "3": 30
+  },
+  "leaderNames": 16,
+  "populationPriorityCountries": 20,
+  "sebufVersion": "v0.11.1",
+  "mcpToolCount": 99,
+  "mcpApps": {
+    "specVersion": "2026-01-26",
+    "mimeType": "text/html;profile=mcp-app",
+    "apps": [
+      {
+        "uriConst": "COUNTRY_RISK_UI_URI",
+        "uri": "ui://worldmonitor/country-risk-v3.html",
+        "name": "Country Risk (interactive)",
+        "description": "Interactive in-conversation app shell for get_country_risk: renders the Composite Instability Index (cii.combinedScore, 0-100), its four contributing components labelled by meaning (domestic unrest, armed conflict, security and mobility, information environment), the government travel-advisory level, OFAC sanctions exposure, and score trend. Shows an explicit degraded banner when upstreamUnavailable is set, so an outage cannot read as a calm country. Linked from the get_country_risk tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Static, data-free template — public and quota-exempt.",
+        "tool": "get_country_risk"
+      },
+      {
+        "uriConst": "WORLD_BRIEF_UI_URI",
+        "uri": "ui://worldmonitor/world-brief-v2.html",
+        "name": "World Brief (interactive)",
+        "description": "Interactive in-conversation app shell for get_world_brief: renders the AI-summarised global intelligence brief as readable paragraphs, the grounding headlines, and the source feed articles. Linked from the get_world_brief tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Static, data-free template — public and quota-exempt.",
+        "tool": "get_world_brief"
+      },
+      {
+        "uriConst": "COUNTRY_BRIEF_UI_URI",
+        "uri": "ui://worldmonitor/country-brief-v3.html",
+        "name": "Country Brief (interactive)",
+        "description": "Interactive in-conversation app shell for get_country_brief: renders the AI-synthesised per-country intelligence brief as paragraphs, the grounding sources, and cited WorldMonitor data. Linked from the get_country_brief tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Static, data-free template — public and quota-exempt.",
+        "tool": "get_country_brief"
+      },
+      {
+        "uriConst": "MARKET_RADAR_UI_URI",
+        "uri": "ui://worldmonitor/market-radar-v3.html",
+        "name": "Market Radar (interactive)",
+        "description": "Interactive in-conversation app shell for get_market_data: renders the Fear & Greed composite plus per-asset-class quote tables (equities, commodities, crypto, Gulf, sectors) with signed change, loaded names and locally expandable original intraday charts. Linked from the get_market_data tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Data-free current-interface bootstrap, public and quota-exempt. Loads only the current public UI assets; chart expansion reuses the tool result.",
+        "tool": "get_market_data"
+      },
+      {
+        "uriConst": "CHOKEPOINT_MONITOR_UI_URI",
+        "uri": "ui://worldmonitor/chokepoint-monitor-v2.html",
+        "name": "Chokepoint Monitor (interactive)",
+        "description": "Interactive in-conversation app shell for get_chokepoint_status: renders per-chokepoint rolling transit summaries (today's transit count, week-over-week change, tanker split) with a risk-level badge. Linked from the get_chokepoint_status tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Static, data-free template — public and quota-exempt.",
+        "tool": "get_chokepoint_status"
+      },
+      {
+        "uriConst": "NEWS_INTELLIGENCE_UI_URI",
+        "uri": "ui://worldmonitor/news-intelligence-v3.html",
+        "name": "News Intelligence (interactive)",
+        "description": "Interactive in-conversation app shell for get_news_intelligence: renders AI-classified top stories (title, category, alert flag, country, source) from WorldMonitor's intelligence layer. Linked from the get_news_intelligence tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Static, data-free template — public and quota-exempt.",
+        "tool": "get_news_intelligence"
+      },
+      {
+        "uriConst": "CONFLICT_EVENTS_UI_URI",
+        "uri": "ui://worldmonitor/conflict-events-v2.html",
+        "name": "Conflict Events (interactive)",
+        "description": "Interactive in-conversation app shell for get_conflict_events: renders active armed-conflict events (belligerents, violence type, country, fatalities, date) from the UCDP feed. Linked from the get_conflict_events tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Static, data-free template — public and quota-exempt.",
+        "tool": "get_conflict_events"
+      },
+      {
+        "uriConst": "NATURAL_DISASTERS_UI_URI",
+        "uri": "ui://worldmonitor/natural-disasters-v3.html",
+        "name": "Natural Disasters (interactive)",
+        "description": "Interactive in-conversation app shell for get_natural_disasters: groups recent M4.5+ earthquakes (USGS and Earthquakes Canada / NRCan: magnitude, place, time, source) and active wildfires (NASA FIRMS). Linked from the get_natural_disasters tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Static, data-free template — public and quota-exempt.",
+        "tool": "get_natural_disasters"
+      },
+      {
+        "uriConst": "PREDICTION_MARKETS_UI_URI",
+        "uri": "ui://worldmonitor/prediction-markets-v3.html",
+        "name": "Prediction Markets (interactive)",
+        "description": "Interactive in-conversation app shell for get_prediction_markets: renders active event-contract odds grouped by category (geopolitical, tech, finance) with a probability bar per market. Linked from the get_prediction_markets tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Static, data-free template — public and quota-exempt.",
+        "tool": "get_prediction_markets"
+      },
+      {
+        "uriConst": "FORECASTS_UI_URI",
+        "uri": "ui://worldmonitor/forecasts-v4.html",
+        "name": "Forecasts (interactive)",
+        "description": "Interactive in-conversation app shell for get_forecast_predictions: renders WorldMonitor's AI-generated forecasts with local domain/region filters and original case analysis. Analysis expansion loads original cases; Active theaters loads latest original theater summaries under the same signed forecast panel allocation, with independent run/time and completion coverage. Provided full cases and loaded theater details expand locally. Linked from the get_forecast_predictions tool via _meta.ui.resourceUri; an MCP-Apps host renders it inline and streams the tool result in via postMessage. Static, data-free template — public and quota-exempt.",
+        "tool": "get_forecast_predictions"
+      },
+      {
+        "uriConst": "NEWS_DASHBOARD_UI_URI",
+        "uri": "ui://worldmonitor/news-dashboard-v3.html",
+        "name": "WorldMonitor news and maps",
+        "description": "WorldMonitor news panels and interactive map, rendered with the dashboard components.",
+        "tool": "open_news_dashboard"
+      },
+      {
+        "uriConst": "COUNTRY_VIEW_UI_URI",
+        "uri": "ui://worldmonitor/country-view-v3.html",
+        "name": "WorldMonitor country view",
+        "description": "Shared country deep dive with progressive authenticated sections.",
+        "tool": "open_country_brief"
+      }
+    ],
+    "uiResources": [
+      "ui://worldmonitor/country-risk-v3.html",
+      "ui://worldmonitor/world-brief-v2.html",
+      "ui://worldmonitor/country-brief-v3.html",
+      "ui://worldmonitor/market-radar-v3.html",
+      "ui://worldmonitor/chokepoint-monitor-v2.html",
+      "ui://worldmonitor/news-intelligence-v3.html",
+      "ui://worldmonitor/conflict-events-v2.html",
+      "ui://worldmonitor/natural-disasters-v3.html",
+      "ui://worldmonitor/prediction-markets-v3.html",
+      "ui://worldmonitor/forecasts-v4.html",
+      "ui://worldmonitor/news-dashboard-v3.html",
+      "ui://worldmonitor/country-view-v3.html"
+    ],
+    "linkedTools": [
+      "get_country_risk",
+      "get_world_brief",
+      "get_country_brief",
+      "get_market_data",
+      "get_chokepoint_status",
+      "get_news_intelligence",
+      "get_conflict_events",
+      "get_natural_disasters",
+      "get_prediction_markets",
+      "get_forecast_predictions",
+      "open_news_dashboard",
+      "open_country_brief"
+    ],
+    "toolLinks": [
+      {
+        "tool": "get_country_risk",
+        "uri": "ui://worldmonitor/country-risk-v3.html"
+      },
+      {
+        "tool": "get_world_brief",
+        "uri": "ui://worldmonitor/world-brief-v2.html"
+      },
+      {
+        "tool": "get_country_brief",
+        "uri": "ui://worldmonitor/country-brief-v3.html"
+      },
+      {
+        "tool": "get_market_data",
+        "uri": "ui://worldmonitor/market-radar-v3.html"
+      },
+      {
+        "tool": "get_chokepoint_status",
+        "uri": "ui://worldmonitor/chokepoint-monitor-v2.html"
+      },
+      {
+        "tool": "get_news_intelligence",
+        "uri": "ui://worldmonitor/news-intelligence-v3.html"
+      },
+      {
+        "tool": "get_conflict_events",
+        "uri": "ui://worldmonitor/conflict-events-v2.html"
+      },
+      {
+        "tool": "get_natural_disasters",
+        "uri": "ui://worldmonitor/natural-disasters-v3.html"
+      },
+      {
+        "tool": "get_prediction_markets",
+        "uri": "ui://worldmonitor/prediction-markets-v3.html"
+      },
+      {
+        "tool": "get_forecast_predictions",
+        "uri": "ui://worldmonitor/forecasts-v4.html"
+      },
+      {
+        "tool": "open_news_dashboard",
+        "uri": "ui://worldmonitor/news-dashboard-v3.html"
+      },
+      {
+        "tool": "open_country_brief",
+        "uri": "ui://worldmonitor/country-view-v3.html"
+      }
+    ]
+  },
+  "mcpAppCount": 12,
+  "mcpAppUiResources": [
+    "ui://worldmonitor/country-risk-v3.html",
+    "ui://worldmonitor/world-brief-v2.html",
+    "ui://worldmonitor/country-brief-v3.html",
+    "ui://worldmonitor/market-radar-v3.html",
+    "ui://worldmonitor/chokepoint-monitor-v2.html",
+    "ui://worldmonitor/news-intelligence-v3.html",
+    "ui://worldmonitor/conflict-events-v2.html",
+    "ui://worldmonitor/natural-disasters-v3.html",
+    "ui://worldmonitor/prediction-markets-v3.html",
+    "ui://worldmonitor/forecasts-v4.html",
+    "ui://worldmonitor/news-dashboard-v3.html",
+    "ui://worldmonitor/country-view-v3.html"
+  ],
+  "mcpAppLinkedTools": [
+    "get_country_risk",
+    "get_world_brief",
+    "get_country_brief",
+    "get_market_data",
+    "get_chokepoint_status",
+    "get_news_intelligence",
+    "get_conflict_events",
+    "get_natural_disasters",
+    "get_prediction_markets",
+    "get_forecast_predictions",
+    "open_news_dashboard",
+    "open_country_brief"
+  ],
+  "bootstrapCache": {
+    "tierCache": {
+      "slow": "max-age=300, stale-while-revalidate=600, stale-if-error=3600",
+      "fast": "max-age=60, stale-while-revalidate=120, stale-if-error=900"
+    },
+    "tierCdnCache": {
+      "slow": "public, s-maxage=7200, stale-while-revalidate=1800, stale-if-error=7200",
+      "fast": "public, s-maxage=600, stale-while-revalidate=120, stale-if-error=900"
+    },
+    "onDemandProfiles": {
+      "ukmtoIncidents": {
+        "browser": "max-age=60, stale-while-revalidate=60, stale-if-error=60",
+        "cdn": "public, s-maxage=60, stale-while-revalidate=60, stale-if-error=60"
+      },
+      "correlationCards": {
+        "browser": "max-age=60, stale-while-revalidate=60, stale-if-error=300",
+        "cdn": "public, s-maxage=300, stale-while-revalidate=60, stale-if-error=300"
+      },
+      "forecasts": {
+        "browser": "max-age=300, stale-while-revalidate=300, stale-if-error=1800",
+        "cdn": "public, s-maxage=3600, stale-while-revalidate=300, stale-if-error=900"
+      },
+      "chinaDecisionSignals": {
+        "browser": "max-age=60, stale-while-revalidate=120, stale-if-error=900",
+        "cdn": "public, s-maxage=900, stale-while-revalidate=120, stale-if-error=900"
+      },
+      "canadaRoads": {
+        "browser": "max-age=60, stale-while-revalidate=120, stale-if-error=900",
+        "cdn": "public, s-maxage=900, stale-while-revalidate=120, stale-if-error=900"
+      },
+      "albertaRoads": {
+        "browser": "max-age=60, stale-while-revalidate=120, stale-if-error=900",
+        "cdn": "public, s-maxage=900, stale-while-revalidate=120, stale-if-error=900"
+      },
+      "manitobaRoads": {
+        "browser": "max-age=60, stale-while-revalidate=120, stale-if-error=900",
+        "cdn": "public, s-maxage=900, stale-while-revalidate=120, stale-if-error=900"
+      },
+      "bcOpen511": {
+        "browser": "max-age=60, stale-while-revalidate=120, stale-if-error=1800",
+        "cdn": "public, s-maxage=1800, stale-while-revalidate=300, stale-if-error=1800"
+      },
+      "marketCorrelationSeries": {
+        "browser": "max-age=60, stale-while-revalidate=120, stale-if-error=900",
+        "cdn": "public, s-maxage=900, stale-while-revalidate=120, stale-if-error=900"
+      },
+      "imdCycloneMarine": {
+        "browser": "max-age=60, stale-while-revalidate=120, stale-if-error=900",
+        "cdn": "public, s-maxage=900, stale-while-revalidate=120, stale-if-error=900"
+      },
+      "notamAirspace": {
+        "browser": "max-age=60, stale-while-revalidate=120, stale-if-error=900",
+        "cdn": "public, s-maxage=300, stale-while-revalidate=120, stale-if-error=900"
+      },
+      "flightDelays": {
+        "browser": "max-age=60, stale-while-revalidate=120, stale-if-error=1800",
+        "cdn": "public, s-maxage=1800, stale-while-revalidate=300, stale-if-error=1800"
+      },
+      "liveVideoResolved": {
+        "browser": "max-age=300, stale-while-revalidate=300, stale-if-error=1800",
+        "cdn": "public, s-maxage=1800, stale-while-revalidate=300, stale-if-error=3600"
+      }
+    },
+    "onDemandDefaultTier": "slow",
+    "defaultCacheControl": "public, s-maxage=600, stale-while-revalidate=120, stale-if-error=900",
+    "defaultCdnTier": "fast",
+    "nonCacheable": "no-store"
+  },
+  "healthProbedKeys": {
+    "bootstrap": 115,
+    "standalone": 247,
+    "total": 362
+  }
+}

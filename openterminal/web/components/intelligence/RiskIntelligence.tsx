@@ -1,0 +1,8 @@
+"use client";
+import {useTerminal} from '../../store/terminal';
+import {centres,countryName,useIntel,type Risks} from './data';
+import FeedStatus from './FeedStatus';
+export default function RiskIntelligence(){
+ const q=useIntel<Risks>('risk',180000);const focus=useTerminal(s=>s.intelFocus);const select=useTerminal(s=>s.setIntelFocus);
+ return <div className="intel-feed"><div className="intel-caption">Composite country risk · 0–100 · Select a country to link map and news</div><div className="intel-scroll"><table className="intel-table"><thead><tr><th>COUNTRY</th><th>RISK</th><th>TREND</th></tr></thead><tbody>{[...(q.data?.data.ciiScores||[])].sort((a,b)=>b.combinedScore-a.combinedScore).map(r=><tr key={r.region} className={focus?.country===r.region?'intel-selected':''} onClick={()=>{const c=centres[r.region];select({name:countryName(r.region),country:r.region,lon:c?.[0],lat:c?.[1]});}}><td>{countryName(r.region)}</td><td><span className={r.combinedScore>=70?'down':r.combinedScore>=40?'amber':'up'}>{r.combinedScore}</span><span className="intel-meter"><i style={{width:`${Math.min(r.combinedScore,100)}%`}}/></span></td><td>{r.trend.includes('RISING')?'↑ Rising':r.trend.includes('FALLING')?'↓ Falling':'→ Stable'}</td></tr>)}</tbody></table>{!q.isPending&&!q.data?.data.ciiScores?.length&&<div className="intel-empty">{q.error?.message||'No country scores supplied.'}</div>}</div><div className="intel-caption">Composite methodology {q.data?.data.ciiScores?.[0]?.methodologyVersion||'—'} · Context indicator; not a price forecast</div><FeedStatus pending={q.isPending} error={q.error} fetchedAt={q.data?.fetchedAt} sourceTime={q.data?.data.ciiScores?.[0]?.computedAt}/></div>;
+}
