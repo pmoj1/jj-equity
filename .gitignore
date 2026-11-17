@@ -11,3 +11,9 @@ __pycache__/
 *.sqlite
 *.sqlite3
 .DS_Store
+
+/.jj-build/
+/outputs/
+
+.vite/
+*.tsbuildinfo

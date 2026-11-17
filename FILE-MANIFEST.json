@@ -1,573 +1,713 @@
 [
   {
+    "path": ".github/workflows/ci.yml",
+    "bytes": 735,
+    "sha256": "aa169dca0bb64a891ce31602076355895c48a9ceb082d68836d6ebfbb9173bc7"
+  },
+  {
     "path": ".gitignore",
-    "bytes": 125,
-    "sha256": "fd39e50dcb6f3efb319cc4967577fc7903ef4bb3d71a76be2bc148d57fcb64c1"
+    "bytes": 170,
+    "sha256": "7baa35706ef06368be6027c78bf8c95d4b2278103cc158b84fd922882c832046"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 34865,
+    "sha256": "91fd070eb055a106f41e4218f1372741e847f42c9ddae77101e799642a3282a7"
   },
   {
     "path": "README.md",
-    "bytes": 1353,
-    "sha256": "f0ff0973f24478c295921e7ff73475bc16a8a4a80556d6b3b05addbc44aea134"
+    "bytes": 2849,
+    "sha256": "d64cefed8496edd3166d71b25afdf478437274b6a8873a5dfb91fa1034a76a15"
   },
   {
-    "path": "openterminal/.github/workflows/ci.yml",
-    "bytes": 386,
-    "sha256": "de2c1a0754dc2bc6a2436a5b24d9bc1a8b8679045958741213f16cfeca7e8250"
+    "path": "SOURCE-NOTICES.md",
+    "bytes": 1950,
+    "sha256": "ba891a23fbaa3f9dc5db274ac48d7062d659939cc9d5a44930c6465bd13c7470"
   },
   {
-    "path": "openterminal/.gitignore",
+    "path": "app/.gitignore",
     "bytes": 147,
     "sha256": "9da25f1f05d19204675325ca1fc016c43b2c44c34563573e2a3c6e9ad944627e"
   },
   {
-    "path": "openterminal/LICENSE",
+    "path": "app/LICENSE",
     "bytes": 1082,
     "sha256": "fc4c6ba276448615c3bc38a151030c130cf775ced3ea599e3b026e1cfe544f50"
   },
   {
-    "path": "openterminal/README.md",
-    "bytes": 13133,
-    "sha256": "d15b5aad1909b17272db35b33b45488d0fa275e04031ae901d52d43c05ebe5ca"
+    "path": "app/README.md",
+    "bytes": 5057,
+    "sha256": "2594f2d72aac5fef249fe9d659b44df86bd5e4114a2479235842c340312549c3"
   },
   {
-    "path": "openterminal/data/readme.md",
+    "path": "app/data/readme.md",
     "bytes": 228,
     "sha256": "1ce44573d2fa0b17656a61e48da51d5f724ddee3ed7ae070bd16093a1bbabf24"
   },
   {
-    "path": "openterminal/desktop/build-worldmonitor.cjs",
-    "bytes": 1094,
-    "sha256": "e0896b156cbeb61593940c21f6088c756290aef63ddadb05c0164f3bdbf64126"
+    "path": "app/desktop/artifact-integrity.cjs",
+    "bytes": 823,
+    "sha256": "0c573a5466dca05b83ad4bfe3052490f127a790b3420d8e69466e765d3b8768f"
   },
   {
-    "path": "openterminal/desktop/create-source.cjs",
-    "bytes": 3115,
-    "sha256": "a21142326d4938fd0381813bb797d8b444e421437e4b3e2af02459d36f00e5a7"
+    "path": "app/desktop/assets/jj-equity.png",
+    "bytes": 60344,
+    "sha256": "a14b9b63bdce292c285b43c4015208a54244e6988db82215c1fe5d6a9b1035ac"
   },
   {
-    "path": "openterminal/desktop/extract-geography.cjs",
-    "bytes": 1216,
-    "sha256": "927b28276a3ec73c7efa44de13070e1b2364dd16acef5f13eb59cc1feb1649e3"
+    "path": "app/desktop/assets/jj-equity.svg",
+    "bytes": 727,
+    "sha256": "f99539250bac78b06b986053980cd26212752f802aa99f43229ed7f0d66ad72a"
   },
   {
-    "path": "openterminal/desktop/intelligence-service.cjs",
+    "path": "app/desktop/build-paths.cjs",
+    "bytes": 747,
+    "sha256": "4757d6b88636b1d334150da49c2022b24071bbef730913a9314f471a1327ee43"
+  },
+  {
+    "path": "app/desktop/build-worldmonitor.cjs",
+    "bytes": 1555,
+    "sha256": "4cc78f6f83cc547722dad194640d87167d1495c5d0fb4846e1dec115af6f0cc8"
+  },
+  {
+    "path": "app/desktop/create-source.cjs",
+    "bytes": 2829,
+    "sha256": "5483791c545e07bf4fb0a253e332f8cfca8f7c8064f8671a08aab1857df3eeb6"
+  },
+  {
+    "path": "app/desktop/extract-geography.cjs",
+    "bytes": 1350,
+    "sha256": "8fa97770ee7d73c1772671e562fb1079e7b81ed3241190b276c92336c8defde6"
+  },
+  {
+    "path": "app/desktop/intelligence-service.cjs",
     "bytes": 741,
     "sha256": "c0693017837b84ebaeef2f6067ff98a0b8d85dee15f387684cb0eaa0389b2da4"
   },
   {
-    "path": "openterminal/desktop/main.cjs",
-    "bytes": 4865,
-    "sha256": "5fe304d4dacc289c02f0488d8a9823c4139bd579bc12d7e7303d6205dd7bbe59"
+    "path": "app/desktop/main.cjs",
+    "bytes": 5321,
+    "sha256": "16d45b0a094fb238f9c389af9d808172153e7f1bfd59fc2eb57d2836fea2d4ee"
   },
   {
-    "path": "openterminal/desktop/native-integration.test.cjs",
-    "bytes": 3715,
-    "sha256": "4686932724f5acbe2d82bca9ab03de58f93520730ba5472300c39f1c28866f6c"
+    "path": "app/desktop/native-integration.test.cjs",
+    "bytes": 4086,
+    "sha256": "4ca4872a11de4abe521c64116ec6ccc17d4b8b71703bb69be4b88460609fb562"
   },
   {
-    "path": "openterminal/desktop/package-mac.cjs",
-    "bytes": 2395,
-    "sha256": "64037d65b098700cb75af3beae7c6eb69fd9c0e43ef56917c28623effafbf961"
+    "path": "app/desktop/package-mac.cjs",
+    "bytes": 4119,
+    "sha256": "86fddda0acd8b62346758e697b5679b724862680bb4803f1751aabbbd0c25f3e"
   },
   {
-    "path": "openterminal/desktop/package.json",
-    "bytes": 1230,
-    "sha256": "a361f1a5c5f88f9e18bd68ef1668001e2abf6139494f381b30447bf4065b11cd"
+    "path": "app/desktop/package.json",
+    "bytes": 1244,
+    "sha256": "6d456278a1ca90acfbc1954b2a6f97406fc698a470006a6fc9f063dd9a276ac7"
   },
   {
-    "path": "openterminal/desktop/prepare-assets.cjs",
-    "bytes": 384,
-    "sha256": "e4aaad77e62d48b1067a4bf4936b9797bb58ecbe42fa847bc8d75be2d8c0741c"
+    "path": "app/desktop/packaging.test.cjs",
+    "bytes": 5535,
+    "sha256": "a77c69d78c23b900fee1c63b15aec01b915c69c90bc0ba2b293aa2a46f40d45f"
   },
   {
-    "path": "openterminal/desktop/prepare.cjs",
-    "bytes": 2575,
-    "sha256": "ad63d2fbb08b73255dc4687fd14bc410c4bffceec6eeef6807ed4283e60f579f"
+    "path": "app/desktop/prepare-assets.cjs",
+    "bytes": 575,
+    "sha256": "82edcc22ab429e4fdbce88c8ef033754aef168524d04c6cf0b2ba0ace6301df2"
   },
   {
-    "path": "openterminal/docker-compose.yml",
-    "bytes": 1295,
-    "sha256": "f6efcf3852f23e7c922d035e51cd4e010733b94e050364a91dae40276e5e6a8e"
+    "path": "app/desktop/prepare.cjs",
+    "bytes": 4024,
+    "sha256": "0e48c47e034d601eedb0a8703978afb2dae020f25fe2859dae579e6df2fe2ddb"
   },
   {
-    "path": "openterminal/docs/screenshots/chart.png",
+    "path": "app/desktop/source-files.cjs",
+    "bytes": 1768,
+    "sha256": "c52ab62ca62af4f860cb5c207f1f94e5badc06201a325e676f6e1b41a93193a1"
+  },
+  {
+    "path": "app/docker-compose.yml",
+    "bytes": 1675,
+    "sha256": "9636d7a7b49cceabccfdcd4086061f200be4cca822eb65fdc767284535dba10a"
+  },
+  {
+    "path": "app/docs/screenshots/chart.png",
     "bytes": 727622,
     "sha256": "08695c8f03a2b66cb26ec5c07d3177b6729ce31e97dda24e09f0b0cd3ae4c5cf"
   },
   {
-    "path": "openterminal/docs/screenshots/crypto.png",
+    "path": "app/docs/screenshots/crypto.png",
     "bytes": 742318,
     "sha256": "7a78846130a573edb63f7942bdd3d9bdacde9c1096a282aa8aaf2203ac01d376"
   },
   {
-    "path": "openterminal/docs/screenshots/dashboard.png",
+    "path": "app/docs/screenshots/dashboard.png",
     "bytes": 730149,
     "sha256": "86ad41a88ba94770912e2fcbf593cd8502b6f5e0b34b0cea5500486fab5bb692"
   },
   {
-    "path": "openterminal/docs/screenshots/heatmap.png",
+    "path": "app/docs/screenshots/heatmap.png",
     "bytes": 536777,
     "sha256": "e30e0b73315e50d6bdc8b031fc778f8a67b2a2efd6a1685db1039aa295254736"
   },
   {
-    "path": "openterminal/docs/screenshots/news.png",
+    "path": "app/docs/screenshots/news.png",
     "bytes": 555122,
     "sha256": "6fef7493f540b09566bfac89c70c98a337c4062eaa03b93160a1fce0f9d7a460"
   },
   {
-    "path": "openterminal/package 2.json",
-    "bytes": 533,
-    "sha256": "f1ef5a54ea2d8e887c6c0ebad56470329c5aba43e310c1ef3afd99cda40b875d"
+    "path": "app/package-lock.json",
+    "bytes": 217871,
+    "sha256": "1bd8be89e43e2e0de651ef0f2d616b2f5990329f1e228d2b317b461d40f01213"
   },
   {
-    "path": "openterminal/package-lock 2.json",
-    "bytes": 330122,
-    "sha256": "fa9fa6a1c68fc5678295ab0b3d43c2322f6be92acf83dd3da92890f94d9a3a32"
+    "path": "app/package.json",
+    "bytes": 1384,
+    "sha256": "7ceb4639b3903f2897e850a8f752adab24bb7de91da4e5009adf03bf14650003"
   },
   {
-    "path": "openterminal/package-lock.json",
-    "bytes": 217774,
-    "sha256": "ad6fe63efa20a979bfa3f0ec5c127495611103154732d04f353abbdfd91576a1"
+    "path": "app/server/Dockerfile",
+    "bytes": 800,
+    "sha256": "8c924400621b83687e0a745fd45936b664c6ce0b1aa95d82ae3cdcdf452898ca"
   },
   {
-    "path": "openterminal/package.json",
-    "bytes": 910,
-    "sha256": "dd5e8a7efe0f7d05bd1b723a432491d803af5ca6d9184da6f55df0591a1393ad"
-  },
-  {
-    "path": "openterminal/server/Dockerfile",
-    "bytes": 481,
-    "sha256": "009f7d6258dbbd3c505b839573e3f56d7a26d45c8bdef7006b9c97f8715cd367"
-  },
-  {
-    "path": "openterminal/server/package.json",
+    "path": "app/server/package.json",
     "bytes": 654,
     "sha256": "2186f47e7faf8b5e16368ccb1fe5adf3e6dabae45eba29d1e7e3913f8ba6d136"
   },
   {
-    "path": "openterminal/server/src/auth.ts",
-    "bytes": 1386,
-    "sha256": "9441580399606cf7d7ed2eff9967f597413ecc6fc986c3bfc5ac1a39227e4a89"
+    "path": "app/server/src/auth.test.ts",
+    "bytes": 1497,
+    "sha256": "6cdb91a5f0a3a5035287191351b11fb6d5a5d95b9eb2f090e4e135fa2b4d738d"
   },
   {
-    "path": "openterminal/server/src/cache.test.ts",
+    "path": "app/server/src/auth.ts",
+    "bytes": 1702,
+    "sha256": "3a1a8e56e0ed640e0ea440fd096a3922e1b603472cf3b3b85a9c1a2f8e01e2fd"
+  },
+  {
+    "path": "app/server/src/cache.test.ts",
     "bytes": 1639,
     "sha256": "ae92e41d9f82b805bc0576f7d56db02853bccaeafc70c49a33bd82fea74378c9"
   },
   {
-    "path": "openterminal/server/src/cache.ts",
+    "path": "app/server/src/cache.ts",
     "bytes": 2364,
     "sha256": "549071165dbd6e8a9e12c85f6871366035fc034462c89775fef7381885177818"
   },
   {
-    "path": "openterminal/server/src/concurrency.test.ts",
+    "path": "app/server/src/concurrency.test.ts",
     "bytes": 1030,
     "sha256": "212605db75f742ebdb44be58795dfd5df39aed60aefbd2f59d3a5917b070f32f"
   },
   {
-    "path": "openterminal/server/src/concurrency.ts",
+    "path": "app/server/src/concurrency.ts",
     "bytes": 691,
     "sha256": "e9451eb94f4fbb955fb46b06fc4b4e5b09e247c3c2cbd206b795512b25ef9e91"
   },
   {
-    "path": "openterminal/server/src/db.test.ts",
+    "path": "app/server/src/db.test.ts",
     "bytes": 1526,
     "sha256": "dc7fff10f9d06f35ff38dfc1c5ae1bed1619877e43e8af72528bbd368f766837"
   },
   {
-    "path": "openterminal/server/src/db.ts",
+    "path": "app/server/src/db.ts",
     "bytes": 1409,
     "sha256": "e64436131cf22734c7bfc4e90f8c8c50fac7f7e0e7d2c9b3d4f3e266c6e15978"
   },
   {
-    "path": "openterminal/server/src/index.ts",
-    "bytes": 2744,
-    "sha256": "b1014e2109d5e3982015509b063a5bd88f041498c3a9240438ffe92cf6e4d74d"
+    "path": "app/server/src/index.ts",
+    "bytes": 2628,
+    "sha256": "d4c9803484eaba49f55bf0c2630c4f0d74ed5b667ccebd7ba814279ba4a4b10e"
   },
   {
-    "path": "openterminal/server/src/providers/binance.test.ts",
+    "path": "app/server/src/portfolioLedger.test.ts",
+    "bytes": 2343,
+    "sha256": "cd49f0056a0e8ea5ee6c4b54e37806659be39f250f4279ccea6e8d603ceb87c2"
+  },
+  {
+    "path": "app/server/src/portfolioLedger.ts",
+    "bytes": 2503,
+    "sha256": "4c692e945320b743b3af410b80b377ca425e110e42b2408d41db146981997105"
+  },
+  {
+    "path": "app/server/src/providerFetch.test.ts",
+    "bytes": 1645,
+    "sha256": "40e258bfba62b7b90adf21f7695b9d55a4b7a9011e16217e21b971030918e93f"
+  },
+  {
+    "path": "app/server/src/providerFetch.ts",
+    "bytes": 431,
+    "sha256": "2601658e6272f5bde945cad37a5177feda7182193f306df2d5ae9d1f32dc17c8"
+  },
+  {
+    "path": "app/server/src/providers/binance.test.ts",
     "bytes": 1790,
     "sha256": "b1c889c09a663470d479f94d30857687496dbb2449b8553e543b148410a38d2b"
   },
   {
-    "path": "openterminal/server/src/providers/binance.ts",
-    "bytes": 3932,
-    "sha256": "1d6a26aaf436b96ca2b001c8c8423a6e07b8b9ac54c3996e8fac0429d9ff456c"
+    "path": "app/server/src/providers/binance.ts",
+    "bytes": 4017,
+    "sha256": "af5d6693af3b5029d751ad08a358d3520719dbd37e99bdf0cd1f2219671ca2bb"
   },
   {
-    "path": "openterminal/server/src/providers/coingecko.ts",
-    "bytes": 1519,
-    "sha256": "a53721a2fc3c191bf4020b85ff55a4d5375b0d41be0106e4f595af9710b638e5"
+    "path": "app/server/src/providers/coingecko.ts",
+    "bytes": 1588,
+    "sha256": "9f2c4b7c79d8dd2f6ba5dd7e97fe8dff37949644ee89fb8e06cb2497a519b357"
   },
   {
-    "path": "openterminal/server/src/providers/ecb.test.ts",
+    "path": "app/server/src/providers/ecb.test.ts",
     "bytes": 2438,
     "sha256": "b23cd34db36bc8b2efae7c75c9db9494bd12aaf811cf1bd3dc1b428100008d0c"
   },
   {
-    "path": "openterminal/server/src/providers/ecb.ts",
-    "bytes": 1772,
-    "sha256": "ba39dfa64a7484aadaae77424760c9637677d321738b3079c3ce8677e01151cb"
+    "path": "app/server/src/providers/ecb.ts",
+    "bytes": 1833,
+    "sha256": "b9a0de6c4728af4181399253da89171743e3cc0ba64d6af0ddad4cc69f04a7c3"
   },
   {
-    "path": "openterminal/server/src/providers/econcalendar.ts",
-    "bytes": 5723,
-    "sha256": "b455eaaba05b169a587f54e7e633306c605cec94e8a5d1061095a642ee38c76f"
+    "path": "app/server/src/providers/econcalendar.ts",
+    "bytes": 5784,
+    "sha256": "f0d2552094ea6104871e85987706825bf5c82b3c5d6a2044955dabdcb1ba9a5a"
   },
   {
-    "path": "openterminal/server/src/providers/finra.ts",
-    "bytes": 2130,
-    "sha256": "8f3f8997a683b5667da6913e17c53cda3d07b4aaacb3b35eda14d975c1b49a61"
+    "path": "app/server/src/providers/finra.ts",
+    "bytes": 2191,
+    "sha256": "badd3eef441d656ff7bd60a4ec04085e20cf9450a69ddf55aeb433aa2b15f92e"
   },
   {
-    "path": "openterminal/server/src/providers/fred.ts",
-    "bytes": 1003,
-    "sha256": "38076119c097f224668f87bfae9a87d51cfa677c752dce172a044d2dc66460a2"
+    "path": "app/server/src/providers/fred.test.ts",
+    "bytes": 583,
+    "sha256": "79b5702b37fde41b373db28ec4612da674fe8ef6ceaa5d8506972553c277fa33"
   },
   {
-    "path": "openterminal/server/src/providers/nasdaq.ts",
-    "bytes": 9012,
-    "sha256": "849c235487aef9bb30184c60505bbdea913b3c3a542d460b90ba955c7a667e9a"
+    "path": "app/server/src/providers/fred.ts",
+    "bytes": 1130,
+    "sha256": "b23b6d7cdee393c558502bcd6ccd1c37e58ccb3d5c93b4fb6016fe5f7f0e96da"
   },
   {
-    "path": "openterminal/server/src/providers/news.ts",
-    "bytes": 1965,
-    "sha256": "5fbcf5cdf924935dbd16acd8e874f51beb391741346f3af9ebb548ef7365c616"
+    "path": "app/server/src/providers/nasdaq.ts",
+    "bytes": 9137,
+    "sha256": "06cf0944f458abb51482db3e5345fd0c3f8283eac2e53a78f5907eaf41a98070"
   },
   {
-    "path": "openterminal/server/src/providers/registry.ts",
-    "bytes": 1561,
-    "sha256": "7992cd145cbb9f0128118483ece922657c8af6901777b198ae4263bc5579dc83"
+    "path": "app/server/src/providers/news.ts",
+    "bytes": 2026,
+    "sha256": "33eb2b0993450eceaf6d6b829e1b411960a76324314d66ef5e1ea33755dbb8c1"
   },
   {
-    "path": "openterminal/server/src/providers/secedgar.ts",
-    "bytes": 5905,
-    "sha256": "6e43420c231baecd64374113650b4b8b40cdb5c8244ca2d1a5557a1dac147d2e"
+    "path": "app/server/src/providers/registry.test.ts",
+    "bytes": 1384,
+    "sha256": "6e4f918be8751348244c16b3331d8b77f3351212836f3c1eab4a8f11b768aa6f"
   },
   {
-    "path": "openterminal/server/src/providers/stooq.ts",
-    "bytes": 2327,
-    "sha256": "2bc81544da005dba9a609a0c695e51273eb1f6feac8f4471b2bc9cb66007ddb9"
+    "path": "app/server/src/providers/registry.ts",
+    "bytes": 2293,
+    "sha256": "32fa13f247a6ee1c04c4a99a7804dea0ca43ad310d9f60d449ebc1d2384c9877"
   },
   {
-    "path": "openterminal/server/src/providers/tradingview.test.ts",
+    "path": "app/server/src/providers/secedgar.ts",
+    "bytes": 5974,
+    "sha256": "8ef73680fd79b6a043319e103da828519540bc0921f87a99da715d825e20eccd"
+  },
+  {
+    "path": "app/server/src/providers/stooq.ts",
+    "bytes": 2396,
+    "sha256": "f16b92044ffc4b80e9ce3271ef03c698c064ca6063b4a92371b810aebfcd5591"
+  },
+  {
+    "path": "app/server/src/providers/tradingview.test.ts",
     "bytes": 2485,
     "sha256": "9f577435e17d6ce43736106eb50769e2b52fa0f97c1e60a6b38f597f8879f43d"
   },
   {
-    "path": "openterminal/server/src/providers/tradingview.ts",
-    "bytes": 12437,
-    "sha256": "8d5d14e61de110ad341fde5959354cbfe409ccc182e8a9410c1a206052cd80f3"
+    "path": "app/server/src/providers/tradingview.ts",
+    "bytes": 12530,
+    "sha256": "8b7eb1969243aa7a6506163b10332e33fe6fe1a2cf284aff02d08554730e38f5"
   },
   {
-    "path": "openterminal/server/src/providers/yahoo.ts",
-    "bytes": 10466,
-    "sha256": "8494af2291f20f4b591ad68d92ef5b97ee4dab716124cc2ff8427fd15a4ec295"
+    "path": "app/server/src/providers/yahoo.ts",
+    "bytes": 9587,
+    "sha256": "a66d885029c4e72da822a1769c6995422c5ded52aa6d66062dd3c917d37f6858"
   },
   {
-    "path": "openterminal/server/src/rateLimit.test.ts",
+    "path": "app/server/src/rateLimit.test.ts",
     "bytes": 1841,
     "sha256": "9503be5c1913eb59c91d0b2ae478bd846b7d226448107e6744380094c781e976"
   },
   {
-    "path": "openterminal/server/src/rateLimit.ts",
+    "path": "app/server/src/rateLimit.ts",
     "bytes": 1548,
     "sha256": "92c889965eb28f516a94c046c21356e16a3f741430213e59562f5a7f7c80aa6b"
   },
   {
-    "path": "openterminal/server/src/routes/ai.ts",
-    "bytes": 2164,
-    "sha256": "028191e8d0e42e14fb88ca3568dbc072866250251eef454c51ccff11addd73bf"
+    "path": "app/server/src/routes/ai.test.ts",
+    "bytes": 2600,
+    "sha256": "1a3702a002ddbfce1978f35ffa138f524512fcaaf35e39daf53cb98a04bcc2f3"
   },
   {
-    "path": "openterminal/server/src/routes/market.test.ts",
+    "path": "app/server/src/routes/ai.ts",
+    "bytes": 3681,
+    "sha256": "e3bfd093f7376e21b1cda17a3703fad61e5028ae2d9d83f6655abc16fa9791fb"
+  },
+  {
+    "path": "app/server/src/routes/market-quality.test.ts",
+    "bytes": 4154,
+    "sha256": "5dae489f0246ba232c8332aef931efe19596ff914734a8dec56a46ad43fcd143"
+  },
+  {
+    "path": "app/server/src/routes/market.test.ts",
     "bytes": 1662,
     "sha256": "d7c5904fdd08be842727bda2b86ef63db685df28c2ba4ba5f21d1ad2d8046535"
   },
   {
-    "path": "openterminal/server/src/routes/market.ts",
-    "bytes": 28456,
-    "sha256": "6d6ba9f367a88b6122c44eff54efc6fa998893afdc7a358d56ce1853d8ef1286"
+    "path": "app/server/src/routes/market.ts",
+    "bytes": 30490,
+    "sha256": "832f0c0e07721bdb53b3681e47b4f6ecfa03225a837a2069048628e6917c7921"
   },
   {
-    "path": "openterminal/server/src/routes/portfolio.ts",
-    "bytes": 3439,
-    "sha256": "a032712cfe71324ce9cb9cf5e22bb867f027eb99ad8962ce0f456fca8a18edf6"
+    "path": "app/server/src/routes/portfolio.test.ts",
+    "bytes": 3911,
+    "sha256": "74bc0ae36edff7aceac88f16f1f68dc454045fa723d28313f931345687a9a0f2"
   },
   {
-    "path": "openterminal/server/tsconfig.json",
+    "path": "app/server/src/routes/portfolio.ts",
+    "bytes": 4942,
+    "sha256": "7ec4db66e7e1c994e94749d1ce6c6d3e58779c5119f83d9d6c5ef2ed172f5c76"
+  },
+  {
+    "path": "app/server/src/status.test.ts",
+    "bytes": 852,
+    "sha256": "cf42f777509d353e32186c6df56e1d441073cfaf8a567d0ac34b8f5feea81c7f"
+  },
+  {
+    "path": "app/server/src/status.ts",
+    "bytes": 763,
+    "sha256": "a53d454eaf4a5aa6187e0f319b1808679988af606133dae3eb0eda246f10d04f"
+  },
+  {
+    "path": "app/server/tsconfig.json",
     "bytes": 328,
     "sha256": "082deeac349f4fecd9d1125a9f20335d253d831d9e5013780ac76223edbb6175"
   },
   {
-    "path": "openterminal/web/Dockerfile",
-    "bytes": 300,
-    "sha256": "433004f6c24611c41183e5c3ae9011db7036c39dfcec6e75b88f82c09bc35405"
+    "path": "app/web/Dockerfile",
+    "bytes": 814,
+    "sha256": "4f75590b387bffc498ff15a11c90767f83986c3efc0e86443c1f4b76b4111aae"
   },
   {
-    "path": "openterminal/web/app/api/[...path]/route.ts",
+    "path": "app/web/app/api/[...path]/route.ts",
     "bytes": 2149,
     "sha256": "82468c8ade93af4136ee841146555789e09be09c96eb624bd7ab8eb7896e2e9b"
   },
   {
-    "path": "openterminal/web/app/api/intelligence/[dataset]/route.ts",
+    "path": "app/web/app/api/intelligence/[dataset]/route.ts",
     "bytes": 1356,
     "sha256": "5247a1a616a498430623e094d84c74c6295dd4aef233c63fb296afb03d29d73a"
   },
   {
-    "path": "openterminal/web/app/error.tsx",
+    "path": "app/web/app/error.tsx",
     "bytes": 567,
     "sha256": "8cbc192c6baf32f5357b8129a7d9884bbcbdb9edc28d485075a26f640e8c3aa7"
   },
   {
-    "path": "openterminal/web/app/global-error.tsx",
+    "path": "app/web/app/global-error.tsx",
     "bytes": 581,
     "sha256": "fe903ac2f1301e8e5136931ea0aa63e9a9ec73eda4754e1c2741b517ed64e156"
   },
   {
-    "path": "openterminal/web/app/globals.css",
-    "bytes": 6033,
-    "sha256": "f2e77cce7c5ca29185f3421bc1e2e70c6988f3a8b283fe4c353c211f0f77c1b1"
+    "path": "app/web/app/globals.css",
+    "bytes": 19972,
+    "sha256": "5f831bc4f92c6ce857600f94a8348cbdfcb552e5b446735c5ed3a07ae8d32467"
   },
   {
-    "path": "openterminal/web/app/layout.tsx",
-    "bytes": 439,
-    "sha256": "ab9f0a10e1b86d4360cf62fb91181743dab71de32e334b225760bc54b0d655f5"
+    "path": "app/web/app/layout.tsx",
+    "bytes": 479,
+    "sha256": "45a74f7118ce98244f77df5ee89d15947739ee1342764696c2176dfe043d405d"
   },
   {
-    "path": "openterminal/web/app/page.tsx",
+    "path": "app/web/app/page.tsx",
     "bytes": 193,
     "sha256": "108687feab6c956af2bdb2326bb3bf5d1fbbeab53c7bf73addbd557e9a853e2f"
   },
   {
-    "path": "openterminal/web/app/providers.tsx",
+    "path": "app/web/app/providers.tsx",
     "bytes": 529,
     "sha256": "f1cc94d61d4808f317c72627394fcdcf9ff4c325eaa6870b0c9d8ed4e19ede86"
   },
   {
-    "path": "openterminal/web/components/CommandPalette.tsx",
-    "bytes": 3162,
-    "sha256": "f44b0acbf6c3c8038445c65b952b5025cff0d90878223dc826c30d7ef64bd125"
+    "path": "app/web/components/CommandPalette.tsx",
+    "bytes": 4294,
+    "sha256": "84fea95f32861f525b1ba53bf8341ccd9265c65ddc811a21fafa4a434f8ac6e6"
   },
   {
-    "path": "openterminal/web/components/Flash.tsx",
+    "path": "app/web/components/Flash.tsx",
     "bytes": 1074,
     "sha256": "f1a0ef90d3a98740c1676bdf839aef1628bc1bd2c512d74ca365d093eab7f80d"
   },
   {
-    "path": "openterminal/web/components/Sidebar.tsx",
-    "bytes": 2413,
-    "sha256": "9639a8f0c326f7c7c6b212ffb82c7e6370c1a06268987577463e06e592e094fa"
+    "path": "app/web/components/Sidebar.tsx",
+    "bytes": 1702,
+    "sha256": "ca2cbadba7eaa3b262c9f6dff1ce6da193c8c8d3b171885e1cf71c29778e889b"
   },
   {
-    "path": "openterminal/web/components/Terminal.tsx",
-    "bytes": 2409,
-    "sha256": "ec5ab208b38a9aa50a4c3c4a985cc2b00ffe39626a34c2ada7cd47a5fda575b9"
+    "path": "app/web/components/Terminal.tsx",
+    "bytes": 3798,
+    "sha256": "77713e38bb4251cb57250ac27e6078c3d4423a7c00e0f79ee90f040bc08bcc6a"
   },
   {
-    "path": "openterminal/web/components/TopBar.tsx",
-    "bytes": 2669,
-    "sha256": "894e523204af2e32fa9dc7c15f1766cf1ec0662189503f66be299cada7ddde9a"
+    "path": "app/web/components/TopBar.tsx",
+    "bytes": 2418,
+    "sha256": "ce4abcb3356caa5d6c47f9ae4f5f663c73e159d412475c51c2456a79c643e8e0"
   },
   {
-    "path": "openterminal/web/components/WidgetErrorBoundary.tsx",
+    "path": "app/web/components/WidgetErrorBoundary.tsx",
     "bytes": 1101,
     "sha256": "596c25f4ab9514c8d053eeadb6d28959da888a61c0b80d5b0c480d2d3f413a4b"
   },
   {
-    "path": "openterminal/web/components/Workspace.tsx",
-    "bytes": 6897,
-    "sha256": "add42f299e44acf57f76412517d367c1a93f8a8c7100926fa36cc0570b1d92b4"
+    "path": "app/web/components/Workspace.tsx",
+    "bytes": 7072,
+    "sha256": "a64c9499a6d1e2e854ec32135483edce198724458a7405988ab14a9696cf4f8e"
   },
   {
-    "path": "openterminal/web/components/intelligence/FeedStatus.tsx",
+    "path": "app/web/components/WorkspaceSettings.tsx",
+    "bytes": 8170,
+    "sha256": "d23748801b2a77d438c8112dcb4fedd8a8b3717dee44fa3169d9c3e1a594790a"
+  },
+  {
+    "path": "app/web/components/intelligence/FeedStatus.tsx",
     "bytes": 514,
     "sha256": "5f0982d5f108b629410d34671b8062ab488b01e373cf9b4d3bf5cc9339a0a79f"
   },
   {
-    "path": "openterminal/web/components/intelligence/GlobalMap.tsx",
+    "path": "app/web/components/intelligence/GlobalMap.tsx",
     "bytes": 6224,
     "sha256": "41483c8c2dcbe2e6f37f4a54ef2d668f7105f21e51a3b2a4e5a87c7dfe3bdcf5"
   },
   {
-    "path": "openterminal/web/components/intelligence/NewsIntelligence.tsx",
+    "path": "app/web/components/intelligence/NewsIntelligence.tsx",
     "bytes": 3207,
     "sha256": "eb8f0533bad72c21fc906556338bf3e9582ff8597c85c7d752146671fdb9d0db"
   },
   {
-    "path": "openterminal/web/components/intelligence/OperationalFeeds.tsx",
+    "path": "app/web/components/intelligence/OperationalFeeds.tsx",
     "bytes": 5816,
     "sha256": "1b29e2544c8b7eb9de5ba4ae2529a08daf7d24d2139638b8c386d8af6a17c04e"
   },
   {
-    "path": "openterminal/web/components/intelligence/RiskIntelligence.tsx",
+    "path": "app/web/components/intelligence/RiskIntelligence.tsx",
     "bytes": 1708,
     "sha256": "6f32c509762357e6c0f236c18b49825f24756d72f8795bae8d2c5c63020cb6dd"
   },
   {
-    "path": "openterminal/web/components/intelligence/data.ts",
+    "path": "app/web/components/intelligence/data.ts",
     "bytes": 2327,
     "sha256": "9a25fac52bef1cdebdad6e036e37331ebc79801fc309c82bb970c25a9cc9f89c"
   },
   {
-    "path": "openterminal/web/components/widgets/AiWidget.tsx",
-    "bytes": 2670,
-    "sha256": "5e14ac7f7389331dede5e9a525daf8306a6d34c227bc12528e31cbed20bb1c0b"
+    "path": "app/web/components/widgets/AiWidget.tsx",
+    "bytes": 3557,
+    "sha256": "76ca876fb0f9a3d95464490c4877a4c51d0a6c5cff8e68993b37296ac60a9ca4"
   },
   {
-    "path": "openterminal/web/components/widgets/CalendarWidget.tsx",
+    "path": "app/web/components/widgets/CalendarWidget.tsx",
     "bytes": 9044,
     "sha256": "b96c148709cd748f1b2961c248d5dbb5574ef8e99cd6fa8692af6af2ad737dda"
   },
   {
-    "path": "openterminal/web/components/widgets/ChartWidget.tsx",
+    "path": "app/web/components/widgets/ChartWidget.tsx",
     "bytes": 12148,
     "sha256": "3d90926df1234b3d68a52f9dfde2809130f6b3c41bdb3c65a2f5069419dff04b"
   },
   {
-    "path": "openterminal/web/components/widgets/CryptoWidget.tsx",
+    "path": "app/web/components/widgets/CryptoWidget.tsx",
     "bytes": 3206,
     "sha256": "a89ab7191dd35278cecdcebdfeb59dfa3c6e8e16c2855dd54e8349f0a7d52529"
   },
   {
-    "path": "openterminal/web/components/widgets/HeatmapWidget.tsx",
+    "path": "app/web/components/widgets/HeatmapWidget.tsx",
     "bytes": 5195,
     "sha256": "d00f37d89cd2238e1437bd44a5dcbac2c2390a6e07c0f9b18298d873d6b9fe9b"
   },
   {
-    "path": "openterminal/web/components/widgets/InsiderWidget.tsx",
+    "path": "app/web/components/widgets/InsiderWidget.tsx",
     "bytes": 2959,
     "sha256": "5eaa1147dc1c39bb4206ef078aaa23e9f052afd806f14250ca582c178c863534"
   },
   {
-    "path": "openterminal/web/components/widgets/MacroWidget.tsx",
+    "path": "app/web/components/widgets/MacroWidget.tsx",
     "bytes": 3919,
     "sha256": "301157ce3e5b1bc82e95ae5e69a0c0700d37e8142389af473f91e088b9085333"
   },
   {
-    "path": "openterminal/web/components/widgets/NewsWidget.tsx",
+    "path": "app/web/components/widgets/NewsWidget.tsx",
     "bytes": 1942,
     "sha256": "fdd9db75fee1f86490411c33cd62e188d34e0a5ffcda90af402f37a9a01446d4"
   },
   {
-    "path": "openterminal/web/components/widgets/OptionsWidget.tsx",
+    "path": "app/web/components/widgets/OptionsWidget.tsx",
     "bytes": 4317,
     "sha256": "5d6f74b3eabb3eea14fc002029b19ee28b969edfafc3dfac6aaf7ba0ad495c25"
   },
   {
-    "path": "openterminal/web/components/widgets/PortfolioWidget.tsx",
-    "bytes": 6653,
-    "sha256": "bc9c005add0e5ff2e63a5abd3f19d5abdeda709a5c9cef12983d31013c3c61ef"
+    "path": "app/web/components/widgets/PortfolioWidget.tsx",
+    "bytes": 9392,
+    "sha256": "cfc3738a8860668fa2e964589b1b52dae154c9f78098f76ba826af8989b907e0"
   },
   {
-    "path": "openterminal/web/components/widgets/QuoteWidget.tsx",
-    "bytes": 2952,
-    "sha256": "cff44cc620b8f77d6507c78c0b4497cf9b36584ec2a2eb89baa2af1bb64231fd"
+    "path": "app/web/components/widgets/QuoteWidget.tsx",
+    "bytes": 3354,
+    "sha256": "dfea3919e665639360cb29e9054a87bb7ebb972ec1a5c57161572e02c7315776"
   },
   {
-    "path": "openterminal/web/components/widgets/RecapWidget.tsx",
+    "path": "app/web/components/widgets/RecapWidget.tsx",
     "bytes": 5004,
     "sha256": "d1b9c7c6490a4c82663a877e9e973976031607a2d7eeff585fc07e450a636cf1"
   },
   {
-    "path": "openterminal/web/components/widgets/ScreenerWidget.tsx",
+    "path": "app/web/components/widgets/ScreenerWidget.tsx",
     "bytes": 4208,
     "sha256": "53e2fcc50f5f743ecc1f55d31ab298bad40ea3624eb5f0cd769ddb64daa5d0c6"
   },
   {
-    "path": "openterminal/web/components/widgets/TvWidget.tsx",
+    "path": "app/web/components/widgets/TvWidget.tsx",
     "bytes": 2648,
     "sha256": "78f5b6d90319d7929ed886318dca5bdbed710bf8938e2aead2d1db406594ba7b"
   },
   {
-    "path": "openterminal/web/components/widgets/WatchlistWidget.tsx",
-    "bytes": 2904,
-    "sha256": "03d45dd3ec4ba5a2d605f349e508dc57f0adb668ca9561fd98cf2249d5edfa28"
+    "path": "app/web/components/widgets/WatchlistWidget.tsx",
+    "bytes": 3379,
+    "sha256": "a5cf206894aa71e128a9ad251995c6ecbdf32343ea908b61264b79b8543d8896"
   },
   {
-    "path": "openterminal/web/lib/api-key.ts",
+    "path": "app/web/lib/api-key.ts",
     "bytes": 959,
     "sha256": "ff053a649bad2e219982afe56b8026dedf69cd1f53944e70896a28602b84b4a6"
   },
   {
-    "path": "openterminal/web/lib/api.ts",
-    "bytes": 2425,
-    "sha256": "f77ea59cc34df2c5ca27ee44a14e602b0a9bd45521217741e24bf2720feafde9"
+    "path": "app/web/lib/api.ts",
+    "bytes": 2466,
+    "sha256": "6a86c42eb25e0acb73224707272339d34ce1143344489a1b321b394b89533f70"
   },
   {
-    "path": "openterminal/web/lib/indicators.ts",
+    "path": "app/web/lib/indicators.ts",
     "bytes": 3637,
     "sha256": "b223dff2bece3fd5ff485dbf31552e3784091bd96bc487017761c99a432e2d29"
   },
   {
-    "path": "openterminal/web/lib/intelligence-endpoints.ts",
+    "path": "app/web/lib/intelligence-endpoints.ts",
     "bytes": 628,
     "sha256": "636c13628e5ec5396dcb2a29457087470281285dfbb95bd9a79e02b387101c17"
   },
   {
-    "path": "openterminal/web/lib/intelligence-geography.json",
+    "path": "app/web/lib/intelligence-geography.json",
     "bytes": 67013,
     "sha256": "75dbd44aa1ea0a04af5ed10644347b694cffebe7521368978403264e5a2c7654"
   },
   {
-    "path": "openterminal/web/lib/links.ts",
+    "path": "app/web/lib/links.ts",
     "bytes": 373,
     "sha256": "83ba583a8e79811df2ae981b7f409db25e2fd3a31ef4ba931c9c6e95dd9c50b6"
   },
   {
-    "path": "openterminal/web/lib/symbol.ts",
+    "path": "app/web/lib/portfolio.test.ts",
+    "bytes": 1805,
+    "sha256": "ac316fd958be6c09e95b9ff14b57facefcb23dd442d2cb6566f68a73d4efd90f"
+  },
+  {
+    "path": "app/web/lib/portfolio.ts",
+    "bytes": 1699,
+    "sha256": "d89972af35430f31ef18400e49aadc3ce19b7a5928dcb8624fac3fa4852c9794"
+  },
+  {
+    "path": "app/web/lib/status.test.ts",
+    "bytes": 691,
+    "sha256": "f9b2ed5b6d58c2f7057f34009796edc60c94caad001b0885d0c4474805ec3bdb"
+  },
+  {
+    "path": "app/web/lib/status.ts",
+    "bytes": 1369,
+    "sha256": "9231a6c0e3a48865e39a89499f2b8bb4e70709836ae94d3017df2caaaa0dee86"
+  },
+  {
+    "path": "app/web/lib/symbol.ts",
     "bytes": 776,
     "sha256": "a1fb056516471588ab357d07890a27f127617bdbb68a6ae672be1de36acfbc09"
   },
   {
-    "path": "openterminal/web/next-env.d.ts",
+    "path": "app/web/lib/workspace.test.ts",
+    "bytes": 2747,
+    "sha256": "8bba16a55fc2a9bf302b590b79c6110774f8e6ac2612c117fe9e10ac7f0aa82b"
+  },
+  {
+    "path": "app/web/lib/workspace.ts",
+    "bytes": 7750,
+    "sha256": "7471b2ada344e13f9833d1e644704819770a1acf7998d06abd1caaa63a765747"
+  },
+  {
+    "path": "app/web/next-env.d.ts",
     "bytes": 262,
     "sha256": "85ae5aee75f011967cf2d25cbc342f62d69314e9d925f7f4aa3456fc2cffcca6"
   },
   {
-    "path": "openterminal/web/next.config.ts",
-    "bytes": 418,
-    "sha256": "62b837a6e68118eb27c8c7e80c5ac17f4af25c274ba69bfa1134930622e08002"
+    "path": "app/web/next.config.ts",
+    "bytes": 504,
+    "sha256": "fd2ab02b608f655d0c1e65d0cfe1935b4b3ea6a3a9829a671a76a21a1c5a50b9"
   },
   {
-    "path": "openterminal/web/package.json",
+    "path": "app/web/package.json",
     "bytes": 808,
     "sha256": "c7ebdbdccb31759ba34594d0454a0d58944437dfdcbeb310b2914643a94f61ab"
   },
   {
-    "path": "openterminal/web/postcss.config.mjs",
+    "path": "app/web/postcss.config.mjs",
     "bytes": 94,
     "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
   },
   {
-    "path": "openterminal/web/public/maplibre/LICENSE.txt",
+    "path": "app/web/public/maplibre/LICENSE.txt",
     "bytes": 5984,
     "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
   },
   {
-    "path": "openterminal/web/public/maplibre/maplibre-gl-shared.mjs",
+    "path": "app/web/public/maplibre/maplibre-gl-shared.mjs",
     "bytes": 0,
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   {
-    "path": "openterminal/web/public/maplibre/maplibre-gl-worker.mjs",
+    "path": "app/web/public/maplibre/maplibre-gl-worker.mjs",
     "bytes": 519372,
     "sha256": "0bf06492bdb7ba3d4132b78e435621bfba60d5250967991c02b1a73affea8cd5"
   },
   {
-    "path": "openterminal/web/store/terminal.ts",
-    "bytes": 6410,
-    "sha256": "ea51844a04fdd5bd86f6ec96930459ca4c48475d3abdd1f1ca51d39d237c0b4d"
+    "path": "app/web/store/terminal.ts",
+    "bytes": 6970,
+    "sha256": "be560187cc28cdffee681f9aef9a6a4552ed333647b19148ad8e1e8eae248409"
   },
   {
-    "path": "openterminal/web/tsconfig.json",
+    "path": "app/web/tsconfig.json",
     "bytes": 562,
     "sha256": "f6c45b018bb65e857354f73bf3282ee39208d00b07f081d9467fed8af020afb5"
   },
   {
-    "path": "openterminal/web/tsconfig.tsbuildinfo",
-    "bytes": 123946,
-    "sha256": "50cf40fb76a343074e0bb7262ed8ceae1aba5058d4b885303b662c10210bd2f9"
+    "path": "docs/VERIFICATION.md",
+    "bytes": 1968,
+    "sha256": "095c51a12777d719e2a7c50241436d252e63092f3220e25844c5fef6f4ade211"
+  },
+  {
+    "path": "docs/screenshots/browser-intelligence.jpg",
+    "bytes": 122619,
+    "sha256": "eb73c25d135c2782bbce3b109d8c495920ab154880bfe4e5513c478c088022c7"
+  },
+  {
+    "path": "docs/screenshots/browser-markets.jpg",
+    "bytes": 122877,
+    "sha256": "616abfed6944d670fc5a1b38a3547f13ed474c9d6a233b2825f5f67cf08edde8"
+  },
+  {
+    "path": "docs/screenshots/mobile-settings.jpg",
+    "bytes": 37700,
+    "sha256": "bf65049c5c33e32f479d5b182d948a883561e11046b1f238f6b441a57e65bb34"
   },
   {
     "path": "worldmonitor/.agents/skills/sentry-triage/SKILL.md",
@@ -1935,16 +2075,6 @@
     "sha256": "cfa12593695ab5a965eb8678ef4c6b6bf196ef4dc7c217c6046789b49280c2cc"
   },
   {
-    "path": "worldmonitor/api/health/v1/[rpc].js",
-    "bytes": 791681,
-    "sha256": "a21fedc44173d10b3f9bb1d6cc176c48cc64b785f3b0e8cc5483a7d6cc1b40e9"
-  },
-  {
-    "path": "worldmonitor/api/health/v1/[rpc].ts",
-    "bytes": 414,
-    "sha256": "e0320e605362c5825f1a5461bc3d4f8ccf13823fa6e97601a605df5c4f045895"
-  },
-  {
     "path": "worldmonitor/api/health-cors.test.mjs",
     "bytes": 2685,
     "sha256": "6dfb697e057c934148f5e2d73d9e5c1bafaee5e547a00c60a9aa52bebb7bb83f"
@@ -1953,6 +2083,16 @@
     "path": "worldmonitor/api/health.js",
     "bytes": 329198,
     "sha256": "6d749ea23c58f04b964d51988b8358bdfcb32c23c45c5377c9708d41192b4d08"
+  },
+  {
+    "path": "worldmonitor/api/health/v1/[rpc].js",
+    "bytes": 791681,
+    "sha256": "a21fedc44173d10b3f9bb1d6cc176c48cc64b785f3b0e8cc5483a7d6cc1b40e9"
+  },
+  {
+    "path": "worldmonitor/api/health/v1/[rpc].ts",
+    "bytes": 414,
+    "sha256": "e0320e605362c5825f1a5461bc3d4f8ccf13823fa6e97601a605df5c4f045895"
   },
   {
     "path": "worldmonitor/api/http-message-signatures-directory.js",
@@ -2078,6 +2218,26 @@
     "path": "worldmonitor/api/market/v1/[rpc].ts",
     "bytes": 671,
     "sha256": "4e23d538ee4846a6cf99bead82976b13f099b98b2c62a9db1f5dd3cc50b59a41"
+  },
+  {
+    "path": "worldmonitor/api/mcp-proxy.js",
+    "bytes": 1837395,
+    "sha256": "f31bd025276404175014b81fe76cfbb5f7caf8713d0e93da67bde9174023eaeb"
+  },
+  {
+    "path": "worldmonitor/api/mcp-proxy.ts",
+    "bytes": 48749,
+    "sha256": "18fd099bb6bbb9df7c8df15ea3e67db96ee734a2baea108ea7522641e005d6bd"
+  },
+  {
+    "path": "worldmonitor/api/mcp.js",
+    "bytes": 4655398,
+    "sha256": "ecbe7dac90657847fd5f6c579f64b38be664274d97295b566985337e1c8c1709"
+  },
+  {
+    "path": "worldmonitor/api/mcp.ts",
+    "bytes": 4121,
+    "sha256": "deb8a725cb3711496a3ab9c2a8adfafc86e21147e2a835de7a76dffc5efa5f2c"
   },
   {
     "path": "worldmonitor/api/mcp/_account-allowance.ts",
@@ -2795,26 +2955,6 @@
     "sha256": "76fc87c67d01c9a178e8340f0d123c2b7cc56634fe27983caa6ffc1b5aa056f5"
   },
   {
-    "path": "worldmonitor/api/mcp-proxy.js",
-    "bytes": 1837395,
-    "sha256": "f31bd025276404175014b81fe76cfbb5f7caf8713d0e93da67bde9174023eaeb"
-  },
-  {
-    "path": "worldmonitor/api/mcp-proxy.ts",
-    "bytes": 48749,
-    "sha256": "18fd099bb6bbb9df7c8df15ea3e67db96ee734a2baea108ea7522641e005d6bd"
-  },
-  {
-    "path": "worldmonitor/api/mcp.js",
-    "bytes": 4655398,
-    "sha256": "ecbe7dac90657847fd5f6c579f64b38be664274d97295b566985337e1c8c1709"
-  },
-  {
-    "path": "worldmonitor/api/mcp.ts",
-    "bytes": 4121,
-    "sha256": "deb8a725cb3711496a3ab9c2a8adfafc86e21147e2a835de7a76dffc5efa5f2c"
-  },
-  {
     "path": "worldmonitor/api/md-twin.js",
     "bytes": 24160,
     "sha256": "5f63121cd0198c65f98433ae0a8371ba6898bad0fd1aab8b3ec3d9969e01abaf"
@@ -2910,6 +3050,26 @@
     "sha256": "59c0fa173722dab5afcde8d00b31261eff0835d79b691566ddfb56df61ee29e0"
   },
   {
+    "path": "worldmonitor/api/oauth-authorization-server.js",
+    "bytes": 3400,
+    "sha256": "15438296ebfb259beab4a1c7e0a86b94419e83ba2f25f6b02f1ac7f8b4673ea0"
+  },
+  {
+    "path": "worldmonitor/api/oauth-authorization-server.ts",
+    "bytes": 5380,
+    "sha256": "f1ee3c96ca9609f561d3062069a7ac8b541be752bc824f2cc9338872af464c32"
+  },
+  {
+    "path": "worldmonitor/api/oauth-protected-resource.js",
+    "bytes": 2824,
+    "sha256": "e443e1707b83748222562a842f43f67feb8b05a21d5396c96b6271a5fa238d19"
+  },
+  {
+    "path": "worldmonitor/api/oauth-protected-resource.ts",
+    "bytes": 4552,
+    "sha256": "f61230b0eaae6d243dcbf4466efffd603a84f744e4f6b1bcaaa2acef3928adbe"
+  },
+  {
     "path": "worldmonitor/api/oauth/_browser-binding.js",
     "bytes": 3498,
     "sha256": "61d93d73b5e1deae9614094c3c90edd58c39c2fdbf819871c4e4f4ed3c35ad46"
@@ -2963,26 +3123,6 @@
     "path": "worldmonitor/api/oauth/token.ts",
     "bytes": 36923,
     "sha256": "158299b70f28fcf6752d72ac624d05501e0605706acf527c95876995e66ef863"
-  },
-  {
-    "path": "worldmonitor/api/oauth-authorization-server.js",
-    "bytes": 3400,
-    "sha256": "15438296ebfb259beab4a1c7e0a86b94419e83ba2f25f6b02f1ac7f8b4673ea0"
-  },
-  {
-    "path": "worldmonitor/api/oauth-authorization-server.ts",
-    "bytes": 5380,
-    "sha256": "f1ee3c96ca9609f561d3062069a7ac8b541be752bc824f2cc9338872af464c32"
-  },
-  {
-    "path": "worldmonitor/api/oauth-protected-resource.js",
-    "bytes": 2824,
-    "sha256": "e443e1707b83748222562a842f43f67feb8b05a21d5396c96b6271a5fa238d19"
-  },
-  {
-    "path": "worldmonitor/api/oauth-protected-resource.ts",
-    "bytes": 4552,
-    "sha256": "f61230b0eaae6d243dcbf4466efffd603a84f744e4f6b1bcaaa2acef3928adbe"
   },
   {
     "path": "worldmonitor/api/og-story.js",
@@ -3330,36 +3470,6 @@
     "sha256": "d8179584357ebd6fe37d66f580982c36803911d1d7f67fb83520722ae219bbc1"
   },
   {
-    "path": "worldmonitor/api/user/mcp-quota.js",
-    "bytes": 103306,
-    "sha256": "8feed83c52f767db62b82a59a7544d80a0ccb12eda12732d0105c27a2089825a"
-  },
-  {
-    "path": "worldmonitor/api/user/mcp-quota.ts",
-    "bytes": 9617,
-    "sha256": "c026f0be04ab412c1f7d84d4b7ea9c3ac1c85d7ca0c67644d98666fe62f32a60"
-  },
-  {
-    "path": "worldmonitor/api/user/mcp-revoke.js",
-    "bytes": 80669,
-    "sha256": "fe98ef24e695c6127364145115107556f899823ff0d06200988ae3dee5cbfa2d"
-  },
-  {
-    "path": "worldmonitor/api/user/mcp-revoke.ts",
-    "bytes": 8203,
-    "sha256": "a4cc3641afbadfc24b7a222ff2ddfdc4432610147b222814e7c2a46ea648029a"
-  },
-  {
-    "path": "worldmonitor/api/user/passkey-offer.js",
-    "bytes": 83979,
-    "sha256": "b36e87b347d968e07a83eec4271126e4edc62a31619656bccc04a3a142ac58d6"
-  },
-  {
-    "path": "worldmonitor/api/user/passkey-offer.ts",
-    "bytes": 8446,
-    "sha256": "2f124027768eddd573dd7414fcda202289237ff2ef5e202b030bacbb60b01ee5"
-  },
-  {
     "path": "worldmonitor/api/user-api-keys.js",
     "bytes": 354327,
     "sha256": "5a4d3499edf6ccb8c5247ffdc4c4963777e94ca94b9b14f4a8ae2ccefb6fdc54"
@@ -3390,6 +3500,36 @@
     "sha256": "72e7d42d874bd6df1901c2cdd4dd6af8d71e03bf61b2d74e479ab37af53d0053"
   },
   {
+    "path": "worldmonitor/api/user/mcp-quota.js",
+    "bytes": 103306,
+    "sha256": "8feed83c52f767db62b82a59a7544d80a0ccb12eda12732d0105c27a2089825a"
+  },
+  {
+    "path": "worldmonitor/api/user/mcp-quota.ts",
+    "bytes": 9617,
+    "sha256": "c026f0be04ab412c1f7d84d4b7ea9c3ac1c85d7ca0c67644d98666fe62f32a60"
+  },
+  {
+    "path": "worldmonitor/api/user/mcp-revoke.js",
+    "bytes": 80669,
+    "sha256": "fe98ef24e695c6127364145115107556f899823ff0d06200988ae3dee5cbfa2d"
+  },
+  {
+    "path": "worldmonitor/api/user/mcp-revoke.ts",
+    "bytes": 8203,
+    "sha256": "a4cc3641afbadfc24b7a222ff2ddfdc4432610147b222814e7c2a46ea648029a"
+  },
+  {
+    "path": "worldmonitor/api/user/passkey-offer.js",
+    "bytes": 83979,
+    "sha256": "b36e87b347d968e07a83eec4271126e4edc62a31619656bccc04a3a142ac58d6"
+  },
+  {
+    "path": "worldmonitor/api/user/passkey-offer.ts",
+    "bytes": 8446,
+    "sha256": "2f124027768eddd573dd7414fcda202289237ff2ef5e202b030bacbb60b01ee5"
+  },
+  {
     "path": "worldmonitor/api/v2/shipping/[rpc].js",
     "bytes": 897066,
     "sha256": "63c4bf0df88694719b03a8cddb13542b2916f9b33afb4a0b0ee9e30ae3068cba"
@@ -3400,16 +3540,6 @@
     "sha256": "314b87555b31b3699169e876d5ae51737ba498538aef7b599a5c38b4bedca0bd"
   },
   {
-    "path": "worldmonitor/api/v2/shipping/webhooks/[subscriberId]/[action].js",
-    "bytes": 447819,
-    "sha256": "f122648e9dc617fce6ed75d875cd701dbe8037a2aa743b2e7d6e24ced1e25f5a"
-  },
-  {
-    "path": "worldmonitor/api/v2/shipping/webhooks/[subscriberId]/[action].ts",
-    "bytes": 7238,
-    "sha256": "f3fc5b441028996f372bbf80656bd689b9a893ab1c59f72f1544b81d21db518a"
-  },
-  {
     "path": "worldmonitor/api/v2/shipping/webhooks/[subscriberId].js",
     "bytes": 447814,
     "sha256": "271390f32a31c0ec06affbc5199359ac38a160634d78a8f7ee6fa1e9fa9c6f1e"
@@ -3418,6 +3548,16 @@
     "path": "worldmonitor/api/v2/shipping/webhooks/[subscriberId].ts",
     "bytes": 7388,
     "sha256": "eb0d615ea2525fc05bc535370d5d7c6d3c69ee0c8cbf7a00a25a587cdd1c46ae"
+  },
+  {
+    "path": "worldmonitor/api/v2/shipping/webhooks/[subscriberId]/[action].js",
+    "bytes": 447819,
+    "sha256": "f122648e9dc617fce6ed75d875cd701dbe8037a2aa743b2e7d6e24ced1e25f5a"
+  },
+  {
+    "path": "worldmonitor/api/v2/shipping/webhooks/[subscriberId]/[action].ts",
+    "bytes": 7238,
+    "sha256": "f3fc5b441028996f372bbf80656bd689b9a893ab1c59f72f1544b81d21db518a"
   },
   {
     "path": "worldmonitor/api/version.js",
@@ -4345,6 +4485,11 @@
     "sha256": "765f803a5b553e1d71da7c75b07ff373da2be8e4c96bc308d6ba1dc08d800fb6"
   },
   {
+    "path": "worldmonitor/blog-site/src/content.config.ts",
+    "bytes": 894,
+    "sha256": "ca032e50c7bd59e06b105cd09bb1b52865d646a86e3ce9abdd2c9468264e04b0"
+  },
+  {
     "path": "worldmonitor/blog-site/src/content/blog/72-hour-geopolitical-event-retro-template-worldmonitor.md",
     "bytes": 8012,
     "sha256": "f35ea17d902f9ba5c28b1dba692dbe63dd2d51c5bd3897d15c1a60757e20e978"
@@ -4753,11 +4898,6 @@
     "path": "worldmonitor/blog-site/src/content/guides/vs/recorded-future.md",
     "bytes": 8314,
     "sha256": "b1204030e6c8b14cc58af25427446ba1dd2bea3bd6ff95de10e4429a9313f479"
-  },
-  {
-    "path": "worldmonitor/blog-site/src/content.config.ts",
-    "bytes": 894,
-    "sha256": "ca032e50c7bd59e06b105cd09bb1b52865d646a86e3ce9abdd2c9468264e04b0"
   },
   {
     "path": "worldmonitor/blog-site/src/data/glossary.ts",
@@ -7130,6 +7270,11 @@
     "sha256": "64c0e26b88eeb3fad9d359d1f213288b3a9da75fc1bac49304cf85ec050ecc3e"
   },
   {
+    "path": "worldmonitor/docker-compose.yml",
+    "bytes": 6706,
+    "sha256": "2ac1e397eeb52db7b5510017c07068ddead65884b0f2add6ab4b72fe3db9a427"
+  },
+  {
     "path": "worldmonitor/docker/.dockerignore",
     "bytes": 171,
     "sha256": "6920bea7e27baff71a315ba41247a857230fe8a1d942b57fc9126ce9642c8fcd"
@@ -7268,11 +7413,6 @@
     "path": "worldmonitor/docker/validate-session-secret.mjs",
     "bytes": 183,
     "sha256": "8e342af9c7fe9eccd6525feb93b94043887695330cbd8cd98e46dd239de76856"
-  },
-  {
-    "path": "worldmonitor/docker-compose.yml",
-    "bytes": 6706,
-    "sha256": "2ac1e397eeb52db7b5510017c07068ddead65884b0f2add6ab4b72fe3db9a427"
   },
   {
     "path": "worldmonitor/docs/.mintignore",
@@ -7425,14 +7565,79 @@
     "sha256": "a09aec10a6865ec95fb800574703a9fa1b8c1674cdec108c947a6dfe7dcf8c4e"
   },
   {
+    "path": "worldmonitor/docs/analytics-collector-operations.md",
+    "bytes": 28916,
+    "sha256": "efe863fa69e785e636b52471c66f4d5f36456072f8c27788a1bc3e40d1d4719f"
+  },
+  {
     "path": "worldmonitor/docs/analytics/mission-funnel-events.md",
     "bytes": 7817,
     "sha256": "6f6afe5c1df4a064cffc06e3e68a90bdcae21c215b43632785c9c803455688b6"
   },
   {
-    "path": "worldmonitor/docs/analytics-collector-operations.md",
-    "bytes": 28916,
-    "sha256": "efe863fa69e785e636b52471c66f4d5f36456072f8c27788a1bc3e40d1d4719f"
+    "path": "worldmonitor/docs/api-brief.mdx",
+    "bytes": 5963,
+    "sha256": "e892aa68060c03d3d3df7daca2a42ccbeda3609382d9e503ece585ed5b9b7936"
+  },
+  {
+    "path": "worldmonitor/docs/api-commerce.mdx",
+    "bytes": 7346,
+    "sha256": "08db7fd2d6468677c9f29b58adb09caba4e89def2553fd39aa432a320052e72e"
+  },
+  {
+    "path": "worldmonitor/docs/api-key-deployment.mdx",
+    "bytes": 6527,
+    "sha256": "d3bfd6acc9625bdab28cd22dc06462f2e5a268dcea3b2ff25db7cc2f22c7a9a5"
+  },
+  {
+    "path": "worldmonitor/docs/api-keys.mdx",
+    "bytes": 5208,
+    "sha256": "34ac0bb9b481afbb2717117cdb7f8683548d8db32890770ae2f0a118959528c8"
+  },
+  {
+    "path": "worldmonitor/docs/api-notifications.mdx",
+    "bytes": 19897,
+    "sha256": "6ed776f8310dded542e6c490cb13bed68d33d009e3cab7371391963fb8cd2c56"
+  },
+  {
+    "path": "worldmonitor/docs/api-oauth.mdx",
+    "bytes": 8714,
+    "sha256": "723b483ad4e0c31bb9a9bfff88835c5bbb1ff28b83db4c9855be9422c015fa8c"
+  },
+  {
+    "path": "worldmonitor/docs/api-plan-enforcement-runbook.md",
+    "bytes": 11761,
+    "sha256": "bbb3523ce5e8024d4e534147490dc90beb511d204243b54eaf82c32012dcdad3"
+  },
+  {
+    "path": "worldmonitor/docs/api-platform.mdx",
+    "bytes": 15984,
+    "sha256": "6f69ea2d4682a2f132b16ab4df11ebee9b8297305681170faffb9143bb3abc42"
+  },
+  {
+    "path": "worldmonitor/docs/api-proxies.mdx",
+    "bytes": 3692,
+    "sha256": "52ddda8cb77cd7eb84f70f95fa844175331e736b52ae446a6e7aedb17c0645a4"
+  },
+  {
+    "path": "worldmonitor/docs/api-reference.mdx",
+    "bytes": 9179,
+    "sha256": "fcf3862fe16698f7ebc1d80550f8d0ea421f088768f2663278b3808a1d5df0a5"
+  },
+  {
+    "path": "worldmonitor/docs/api-scenarios.mdx",
+    "bytes": 10863,
+    "sha256": "a5a6c4b081d483781461c4822047a9570b0097f47e5f4429a06e1722a5f884fc"
+  },
+  {
+    "path": "worldmonitor/docs/api-shipping-v2.mdx",
+    "bytes": 35667,
+    "sha256": "a309b01535a6b3be141ee95fb25d72d5b8cfb5dfd18451de8f2b0c24400eedde"
+  },
+  {
+    "path": "worldmonitor/docs/api-versioning.mdx",
+    "bytes": 4927,
+    "sha256": "18aba3e4957498e8baa224a0932bb1ee59ff964518943239918aaeef7cc9a0e7"
   },
   {
     "path": "worldmonitor/docs/api/AviationService.openapi.json",
@@ -7820,69 +8025,9 @@
     "sha256": "7e1ee2659ec3f0d684fe1242937666751bee3c441f9c8023cd3238c2a482c934"
   },
   {
-    "path": "worldmonitor/docs/api-brief.mdx",
-    "bytes": 5963,
-    "sha256": "e892aa68060c03d3d3df7daca2a42ccbeda3609382d9e503ece585ed5b9b7936"
-  },
-  {
-    "path": "worldmonitor/docs/api-commerce.mdx",
-    "bytes": 7346,
-    "sha256": "08db7fd2d6468677c9f29b58adb09caba4e89def2553fd39aa432a320052e72e"
-  },
-  {
-    "path": "worldmonitor/docs/api-key-deployment.mdx",
-    "bytes": 6527,
-    "sha256": "d3bfd6acc9625bdab28cd22dc06462f2e5a268dcea3b2ff25db7cc2f22c7a9a5"
-  },
-  {
-    "path": "worldmonitor/docs/api-keys.mdx",
-    "bytes": 5208,
-    "sha256": "34ac0bb9b481afbb2717117cdb7f8683548d8db32890770ae2f0a118959528c8"
-  },
-  {
-    "path": "worldmonitor/docs/api-notifications.mdx",
-    "bytes": 19897,
-    "sha256": "6ed776f8310dded542e6c490cb13bed68d33d009e3cab7371391963fb8cd2c56"
-  },
-  {
-    "path": "worldmonitor/docs/api-oauth.mdx",
-    "bytes": 8714,
-    "sha256": "723b483ad4e0c31bb9a9bfff88835c5bbb1ff28b83db4c9855be9422c015fa8c"
-  },
-  {
-    "path": "worldmonitor/docs/api-plan-enforcement-runbook.md",
-    "bytes": 11761,
-    "sha256": "bbb3523ce5e8024d4e534147490dc90beb511d204243b54eaf82c32012dcdad3"
-  },
-  {
-    "path": "worldmonitor/docs/api-platform.mdx",
-    "bytes": 15984,
-    "sha256": "6f69ea2d4682a2f132b16ab4df11ebee9b8297305681170faffb9143bb3abc42"
-  },
-  {
-    "path": "worldmonitor/docs/api-proxies.mdx",
-    "bytes": 3692,
-    "sha256": "52ddda8cb77cd7eb84f70f95fa844175331e736b52ae446a6e7aedb17c0645a4"
-  },
-  {
-    "path": "worldmonitor/docs/api-reference.mdx",
-    "bytes": 9179,
-    "sha256": "fcf3862fe16698f7ebc1d80550f8d0ea421f088768f2663278b3808a1d5df0a5"
-  },
-  {
-    "path": "worldmonitor/docs/api-scenarios.mdx",
-    "bytes": 10863,
-    "sha256": "a5a6c4b081d483781461c4822047a9570b0097f47e5f4429a06e1722a5f884fc"
-  },
-  {
-    "path": "worldmonitor/docs/api-shipping-v2.mdx",
-    "bytes": 35667,
-    "sha256": "a309b01535a6b3be141ee95fb25d72d5b8cfb5dfd18451de8f2b0c24400eedde"
-  },
-  {
-    "path": "worldmonitor/docs/api-versioning.mdx",
-    "bytes": 4927,
-    "sha256": "18aba3e4957498e8baa224a0932bb1ee59ff964518943239918aaeef7cc9a0e7"
+    "path": "worldmonitor/docs/architecture.mdx",
+    "bytes": 89115,
+    "sha256": "a815b43accc1933f2f5f33b80de1322c8909eca0bbb555a95dc4a4dad447765e"
   },
   {
     "path": "worldmonitor/docs/architecture/agent-feedback-threat-model.md",
@@ -7938,11 +8083,6 @@
     "path": "worldmonitor/docs/architecture/usage-telemetry.md",
     "bytes": 23810,
     "sha256": "eac8ca9dcba944b294de0f376bb38aa3551a4a8a382ef4dd1328856a389fda09"
-  },
-  {
-    "path": "worldmonitor/docs/architecture.mdx",
-    "bytes": 89115,
-    "sha256": "a815b43accc1933f2f5f33b80de1322c8909eca0bbb555a95dc4a4dad447765e"
   },
   {
     "path": "worldmonitor/docs/archive/plans/2026-04-29-post-launch-stabilization.md",
@@ -9035,6 +9175,11 @@
     "sha256": "c710090dd3b4bee7df3eacad10ca7b5fbc90d8b4329b9d7d835286e404581d61"
   },
   {
+    "path": "worldmonitor/docs/methodology/country-resilience-index.mdx",
+    "bytes": 139742,
+    "sha256": "f9e09fc72533dc2c2caa6bf6148aed28eed92ab4da6509541aea36fef2e65793"
+  },
+  {
     "path": "worldmonitor/docs/methodology/country-resilience-index/golden-baseline.md",
     "bytes": 4166,
     "sha256": "cc510603f763ead156f4a5907f92c9e945ebd9f2131ff602c37ae920d0e4f67d"
@@ -9063,11 +9208,6 @@
     "path": "worldmonitor/docs/methodology/country-resilience-index/validation/benchmark-results.json",
     "bytes": 9044,
     "sha256": "d15255bb4a58d5e59791c6acedf184258bb55735f0d00a5bf0b78dacbf6f5a29"
-  },
-  {
-    "path": "worldmonitor/docs/methodology/country-resilience-index.mdx",
-    "bytes": 139742,
-    "sha256": "f9e09fc72533dc2c2caa6bf6148aed28eed92ab4da6509541aea36fef2e65793"
   },
   {
     "path": "worldmonitor/docs/methodology/defense-industrial-base.mdx",
@@ -13425,6 +13565,31 @@
     "sha256": "718607468a0485442da1eee660c4f6c37b4afa7be4b37d43965d2ddf2fec0fdf"
   },
   {
+    "path": "worldmonitor/pro-test/src/welcome-document.ts",
+    "bytes": 8567,
+    "sha256": "6081da81296ded1caed1e911ba5f0f8789e3dfc8f3984581f181255573f984b8"
+  },
+  {
+    "path": "worldmonitor/pro-test/src/welcome-language.ts",
+    "bytes": 2382,
+    "sha256": "6e3758eb02c57e047ced41fcf318ece7f7bbcec00b7735b1dcff1743ee286116"
+  },
+  {
+    "path": "worldmonitor/pro-test/src/welcome-main.tsx",
+    "bytes": 1712,
+    "sha256": "77f0a745afb2037a4660e99bde96ab62dce1e0d439bf199401f9b02a40535e2e"
+  },
+  {
+    "path": "worldmonitor/pro-test/src/welcome-prerender.tsx",
+    "bytes": 1416,
+    "sha256": "36eab116a20e1dc1ee7884c9d4345e24f4d04f415be1cbbf09094ba0bee24cbe"
+  },
+  {
+    "path": "worldmonitor/pro-test/src/welcome-root.ts",
+    "bytes": 1264,
+    "sha256": "12069c058f5c2266cd2b56a72b03fde39796b87ae4b715f9bb739712001f4a95"
+  },
+  {
     "path": "worldmonitor/pro-test/src/welcome/Agents.tsx",
     "bytes": 7183,
     "sha256": "c20f857f0ca03c59683a1049daa65a1ca62f277e9c356334bcc9697c6bb23ff1"
@@ -13493,31 +13658,6 @@
     "path": "worldmonitor/pro-test/src/welcome/Voices.tsx",
     "bytes": 710,
     "sha256": "2b99896ae99b3fb1178e9f20eb89092a2f48c2fe123538fe1bbd7b2789aaa940"
-  },
-  {
-    "path": "worldmonitor/pro-test/src/welcome-document.ts",
-    "bytes": 8567,
-    "sha256": "6081da81296ded1caed1e911ba5f0f8789e3dfc8f3984581f181255573f984b8"
-  },
-  {
-    "path": "worldmonitor/pro-test/src/welcome-language.ts",
-    "bytes": 2382,
-    "sha256": "6e3758eb02c57e047ced41fcf318ece7f7bbcec00b7735b1dcff1743ee286116"
-  },
-  {
-    "path": "worldmonitor/pro-test/src/welcome-main.tsx",
-    "bytes": 1712,
-    "sha256": "77f0a745afb2037a4660e99bde96ab62dce1e0d439bf199401f9b02a40535e2e"
-  },
-  {
-    "path": "worldmonitor/pro-test/src/welcome-prerender.tsx",
-    "bytes": 1416,
-    "sha256": "36eab116a20e1dc1ee7884c9d4345e24f4d04f415be1cbbf09094ba0bee24cbe"
-  },
-  {
-    "path": "worldmonitor/pro-test/src/welcome-root.ts",
-    "bytes": 1264,
-    "sha256": "12069c058f5c2266cd2b56a72b03fde39796b87ae4b715f9bb739712001f4a95"
   },
   {
     "path": "worldmonitor/pro-test/tsconfig.json",
@@ -15410,6 +15550,11 @@
     "sha256": "e1b3b11d6c56d5886bd8cdd9a1c0c76d0132bada0bcfd4fdce381d048836c666"
   },
   {
+    "path": "worldmonitor/public/.well-known/mcp-registry-auth",
+    "bytes": 67,
+    "sha256": "ce8959175c8eee07a9977cf80c7491a2aa507e7500ae773a9b897e6ad05e34fa"
+  },
+  {
     "path": "worldmonitor/public/.well-known/mcp/docs-server-card.json",
     "bytes": 1493,
     "sha256": "580bf1bc6634f2418043f425ffc12266517bbdf3dcdfe452763dc250afc9e4d9"
@@ -15418,11 +15563,6 @@
     "path": "worldmonitor/public/.well-known/mcp/server-card.json",
     "bytes": 97855,
     "sha256": "18b8a9e1dc5513e295d8750b452b648510acad03170376b9a6f590b2f2bf1627"
-  },
-  {
-    "path": "worldmonitor/public/.well-known/mcp-registry-auth",
-    "bytes": 67,
-    "sha256": "ce8959175c8eee07a9977cf80c7491a2aa507e7500ae773a9b897e6ad05e34fa"
   },
   {
     "path": "worldmonitor/public/.well-known/openai-apps-challenge",
@@ -15450,6 +15590,16 @@
     "sha256": "12da67fcd2a874256ec87dd353fa5fdf54e7cd5c7703267267c3bfdbaa2d61ad"
   },
   {
+    "path": "worldmonitor/public/agent-view.json",
+    "bytes": 9131,
+    "sha256": "23532bc96066c20c5fd9630fcf5d2432ccf55ca0813e840c049a2730e10d581a"
+  },
+  {
+    "path": "worldmonitor/public/agent.txt",
+    "bytes": 2506,
+    "sha256": "c53d8d0a4f1e8ff0caddaa2a2e1e690ba8168ff699c742164e4a28bf3081852e"
+  },
+  {
     "path": "worldmonitor/public/agent/agent-client-source.js",
     "bytes": 9549,
     "sha256": "fba11ee3a2392abf92013e4f7844bced42554c78596470b2ff5a650cbb827646"
@@ -15470,16 +15620,6 @@
     "sha256": "8f39a41ce143d319569f03e7bed0eb9ad75fac2f6585b7a3e18c0fc75dcd38d6"
   },
   {
-    "path": "worldmonitor/public/agent-view.json",
-    "bytes": 9131,
-    "sha256": "23532bc96066c20c5fd9630fcf5d2432ccf55ca0813e840c049a2730e10d581a"
-  },
-  {
-    "path": "worldmonitor/public/agent.txt",
-    "bytes": 2506,
-    "sha256": "c53d8d0a4f1e8ff0caddaa2a2e1e690ba8168ff699c742164e4a28bf3081852e"
-  },
-  {
     "path": "worldmonitor/public/agents.md",
     "bytes": 7060,
     "sha256": "ecd3eeb19257923537098bf0f48dbc9e55556069f899f9cdcb7b17e1096953d0"
@@ -15490,6 +15630,11 @@
     "sha256": "5b08d112398f97f6a7d7e3ef7462d248a8eeba308e4ddef661647d72b4945493"
   },
   {
+    "path": "worldmonitor/public/api-versioning.md",
+    "bytes": 5082,
+    "sha256": "419317215b8d00652bae0de873f2f21a2c61d09d2a9cc2bb70f5a205b193b2e0"
+  },
+  {
     "path": "worldmonitor/public/api/download.md",
     "bytes": 1896,
     "sha256": "61f8e9e17dd4ab44fff88d552f0888f1253eb3c436cc9796cd39df931994b5d8"
@@ -15498,11 +15643,6 @@
     "path": "worldmonitor/public/api/llms.txt",
     "bytes": 7895,
     "sha256": "10707ee36bc55b677dc943feb0ffcb0009b5b389990ac15af7e1a3fbcb08fc0c"
-  },
-  {
-    "path": "worldmonitor/public/api-versioning.md",
-    "bytes": 5082,
-    "sha256": "419317215b8d00652bae0de873f2f21a2c61d09d2a9cc2bb70f5a205b193b2e0"
   },
   {
     "path": "worldmonitor/public/auth.md",
@@ -15535,14 +15675,14 @@
     "sha256": "aa13066e01243919eafea693a3e07135a86a8c48ad2728b8984414c950efed56"
   },
   {
-    "path": "worldmonitor/public/developers/llms.txt",
-    "bytes": 4489,
-    "sha256": "6a60c094ed8a8f8dde4bbe8064a349e826aa489cb3ff97bc7ff01f558bd5dd1b"
-  },
-  {
     "path": "worldmonitor/public/developers.md",
     "bytes": 6124,
     "sha256": "efa5c0f1fe3572a9a08a36791e813cb38553e15bce76fd9e1a284f70c67287f6"
+  },
+  {
+    "path": "worldmonitor/public/developers/llms.txt",
+    "bytes": 4489,
+    "sha256": "6a60c094ed8a8f8dde4bbe8064a349e826aa489cb3ff97bc7ff01f558bd5dd1b"
   },
   {
     "path": "worldmonitor/public/embed.js",
@@ -21395,14 +21535,14 @@
     "sha256": "387ff137b00241c1bca29eb976f289eae0b6240d1ac5f1ed15fdf03ae73a335e"
   },
   {
-    "path": "worldmonitor/sdk/ruby/lib/worldmonitor/version.rb",
-    "bytes": 75,
-    "sha256": "f8411e3591cf366f15f66b6e162769c01205f0836ef5f762f20790db82ca0107"
-  },
-  {
     "path": "worldmonitor/sdk/ruby/lib/worldmonitor.rb",
     "bytes": 10105,
     "sha256": "860098afa7bd279f3443ab4c9337bdc6f07e9d2046de6638ef256082fc0ec03f"
+  },
+  {
+    "path": "worldmonitor/sdk/ruby/lib/worldmonitor/version.rb",
+    "bytes": 75,
+    "sha256": "f8411e3591cf366f15f66b6e162769c01205f0836ef5f762f20790db82ca0107"
   },
   {
     "path": "worldmonitor/sdk/ruby/test/test_worldmonitor.rb",
@@ -21458,6 +21598,11 @@
     "path": "worldmonitor/sdk/rust/tests/client.rs",
     "bytes": 9249,
     "sha256": "e915031a508fffdde8e2912d1e16ad13d1f9d1c80f4acb91aeec803adff856e0"
+  },
+  {
+    "path": "worldmonitor/server.json",
+    "bytes": 549,
+    "sha256": "02b9c5ef83bf3ddab15fb63024c0aea4ab192f7b4449a785c5ba218ac0b0d86b"
   },
   {
     "path": "worldmonitor/server/__tests__/api-key-burst-decision.test.ts",
@@ -24265,11 +24410,6 @@
     "sha256": "94dba38c1cbd9083566fcd9b0d078cbb68b5606df3beb9f614b617132872ba9d"
   },
   {
-    "path": "worldmonitor/server.json",
-    "bytes": 549,
-    "sha256": "02b9c5ef83bf3ddab15fb63024c0aea4ab192f7b4449a785c5ba218ac0b0d86b"
-  },
-  {
     "path": "worldmonitor/settings.html",
     "bytes": 2565,
     "sha256": "e7165dcc138ae62e5a4e0afbfae53aeef09d7c098c62748e7a6c88f4456ea988"
@@ -25825,6 +25965,366 @@
     "sha256": "cd2ccecf934fdc36b95a7dabc718d5bda0f2b8c95b6a079f5f3d6c0859754dc6"
   },
   {
+    "path": "worldmonitor/src-tauri/.cargo/config.local.toml.example",
+    "bytes": 384,
+    "sha256": "82f823530492fb05ad17edd88a535510edb74f0dc959ebde80515bb9d8cf0c3e"
+  },
+  {
+    "path": "worldmonitor/src-tauri/.cargo/config.toml",
+    "bytes": 637,
+    "sha256": "5efcea1ab2dae73cd1d60b9ee06bf14e40f90c53aee101ca299b8145bc49efd5"
+  },
+  {
+    "path": "worldmonitor/src-tauri/.gitignore",
+    "bytes": 39,
+    "sha256": "35483080e30621eea1f761aa4150f841144f642bfcba1f7be61475290475152d"
+  },
+  {
+    "path": "worldmonitor/src-tauri/Cargo.lock",
+    "bytes": 135387,
+    "sha256": "51290a29297ac5a2e0d344bd3b0f121eec9934877d968af20db59ee6ad2345bc"
+  },
+  {
+    "path": "worldmonitor/src-tauri/Cargo.toml",
+    "bytes": 837,
+    "sha256": "7de63d8b816bafce1dd2f945294c1f1bab6b8686017f293f88aa960ad32262d9"
+  },
+  {
+    "path": "worldmonitor/src-tauri/build.rs",
+    "bytes": 39,
+    "sha256": "487059eaf8a947b80f20a9aacac038a5047b2ad69d2401b827376c67d6fe847f"
+  },
+  {
+    "path": "worldmonitor/src-tauri/capabilities/default.json",
+    "bytes": 209,
+    "sha256": "9be875c0eb69f68283a38141c0adde16ca3b06277a394bdd0703f5de3310743d"
+  },
+  {
+    "path": "worldmonitor/src-tauri/capabilities/live-channels.json",
+    "bytes": 229,
+    "sha256": "8735b91fd4211a25d6d89f79fcda9a28232ebaf37496bc776f6b88e2f3ae4a00"
+  },
+  {
+    "path": "worldmonitor/src-tauri/capabilities/settings.json",
+    "bytes": 213,
+    "sha256": "0ab117cfd8df2c8e817e3ec5503b0a0ab63a7c2707ab9a7bf80af9238b932ce7"
+  },
+  {
+    "path": "worldmonitor/src-tauri/capabilities/youtube-login.json",
+    "bytes": 250,
+    "sha256": "1811170b91ed0ced5bdcbcd1612a1801395b360a351db88ab44c844717d0256a"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/128x128.png",
+    "bytes": 21183,
+    "sha256": "8c7d9f111f4f27f3e7261b1aac9089f8e031c8b52ccfda8e6a361796e14bd3c6"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/128x128@2x.png",
+    "bytes": 50807,
+    "sha256": "c2f01889144fa0137a21347c8eba494803526db6cf8bed20d9d0b30fb046000d"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/32x32.png",
+    "bytes": 2448,
+    "sha256": "d2e45a5107181acf5a47c7fefd519df1a5ac1360418b937c9b2e14b12610c4ec"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/Square107x107Logo.png",
+    "bytes": 16360,
+    "sha256": "83fdc1f4afcde8a98f44ba18ad0ef5059877851da67334b69d9e24dd864effcb"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/Square142x142Logo.png",
+    "bytes": 24540,
+    "sha256": "e8a5426678014ac96db9887b0d54dc67922e5d7d47cd9c11e3f9d861e8048986"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/Square150x150Logo.png",
+    "bytes": 26312,
+    "sha256": "f63321b5f4c877e78a863fcdf8380f36bebba63c72e9efbaf08e2ff36debdc8b"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/Square284x284Logo.png",
+    "bytes": 61139,
+    "sha256": "4749d23399b1e86756316817fdef0348844dd374fa1e306a0c25b26e35934786"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/Square30x30Logo.png",
+    "bytes": 2210,
+    "sha256": "70502c3efc6075ab80dab341308d63b2d17133a30e7186d8cbe939c11a92c9ce"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/Square310x310Logo.png",
+    "bytes": 68770,
+    "sha256": "cd1a424635bdf1055120040ac061a43f315dead600d1241e0018f9c72b1669b1"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/Square44x44Logo.png",
+    "bytes": 4288,
+    "sha256": "7ce25d5083a159501bf253869e45817f4a1b95db2cae72ab737ebe1f62718bbd"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/Square71x71Logo.png",
+    "bytes": 9204,
+    "sha256": "895d3c8aef28dde64e233c8cd0dc97ef98a77f2928360314be64bb01765f32f4"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/Square89x89Logo.png",
+    "bytes": 12665,
+    "sha256": "130d0f7cdfc3cefb4ade829427b475d4ab328d7809d26bb15f8da8d024fcc3b5"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/StoreLogo.png",
+    "bytes": 5217,
+    "sha256": "9dfeabdad2cd8e1ee5541d0b5bc49f30d25822f33076f0a8504ada5e057926c5"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-hdpi/ic_launcher.png",
+    "bytes": 5099,
+    "sha256": "e31eba22852449e8a2e793f355c8679054861a609ae1e78409a3834eb96d2bd6"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png",
+    "bytes": 29393,
+    "sha256": "5cec60eb7a502080bf0c2e8ed5401d1ec48ed9b4f306f74d9f3198f663d460d9"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png",
+    "bytes": 5099,
+    "sha256": "e31eba22852449e8a2e793f355c8679054861a609ae1e78409a3834eb96d2bd6"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-mdpi/ic_launcher.png",
+    "bytes": 4901,
+    "sha256": "20759b27522dc917d22fd697d48366705b74ccc089ac4b04b03c77b575c12b48"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png",
+    "bytes": 16567,
+    "sha256": "2dc65473fb46ceda32c3eaf81dd3016d478f5798bd444a92572598314e46222a"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png",
+    "bytes": 4901,
+    "sha256": "20759b27522dc917d22fd697d48366705b74ccc089ac4b04b03c77b575c12b48"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png",
+    "bytes": 14139,
+    "sha256": "e903f3a89552374cd0647703b9bf5a6b2c22460886391d7918f3b488185de92f"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png",
+    "bytes": 42955,
+    "sha256": "225c038aa56c299819f9db8ecdd12ddbd842a35258c3ca577816bc34230ebcab"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png",
+    "bytes": 14139,
+    "sha256": "e903f3a89552374cd0647703b9bf5a6b2c22460886391d7918f3b488185de92f"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png",
+    "bytes": 24991,
+    "sha256": "46bbfd5f85b5cceb4335001ef233e5f3ebf7fdb7dfd0205d9c3944fdf347758f"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png",
+    "bytes": 73537,
+    "sha256": "e1c71b6532ebd98ca18862cb274d11230151697483b848d4d4ee62ae45bc753d"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png",
+    "bytes": 24991,
+    "sha256": "46bbfd5f85b5cceb4335001ef233e5f3ebf7fdb7dfd0205d9c3944fdf347758f"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png",
+    "bytes": 37050,
+    "sha256": "aa1600067e145d4d2a8fd00322075262c30b8100b49fc57fac97d567bc64cfa5"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png",
+    "bytes": 107682,
+    "sha256": "872e651ea14aa59a4471c11647e8e50d1c6cf964c572188c017164ffb8280fbb"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png",
+    "bytes": 37050,
+    "sha256": "aa1600067e145d4d2a8fd00322075262c30b8100b49fc57fac97d567bc64cfa5"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/icon.icns",
+    "bytes": 404176,
+    "sha256": "515362286895a54d56bc2c3bedb80debbfc8eaef779b8509cccd736a024f3c96"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/icon.ico",
+    "bytes": 70480,
+    "sha256": "5c9e609f3512a955c7a3b088133a72fd208fe47b1a856e027ecc372849ad7c46"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/icon.png",
+    "bytes": 101662,
+    "sha256": "e6f8d9a232bf55360d896f969ee38557c046e2d9f332e2fbded75c92680b6003"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-20x20@1x.png",
+    "bytes": 1079,
+    "sha256": "2daf49be99d4c2c4cc733ba175a073a4d5614b150f5fa01fbf67af966dd46737"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-20x20@2x-1.png",
+    "bytes": 3277,
+    "sha256": "68aa54e4408563550100e41ae2c36172f775852eeb8867543d0802d2ebae4486"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-20x20@2x.png",
+    "bytes": 3277,
+    "sha256": "68aa54e4408563550100e41ae2c36172f775852eeb8867543d0802d2ebae4486"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-20x20@3x.png",
+    "bytes": 6434,
+    "sha256": "2e24b88af153842229d580dc13fd30bcea05ccad81f4b87c426f8ab85a9fd834"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-29x29@1x.png",
+    "bytes": 1953,
+    "sha256": "30f93afac7f17272e3b4af75689c4b866c8486c176ef33a62f6736b5e50075bf"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-29x29@2x-1.png",
+    "bytes": 6125,
+    "sha256": "2a990fcff6d53300fe2cca826e48d01d80557115fd79a67d60dc497ea32ddd43"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-29x29@2x.png",
+    "bytes": 6125,
+    "sha256": "2a990fcff6d53300fe2cca826e48d01d80557115fd79a67d60dc497ea32ddd43"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-29x29@3x.png",
+    "bytes": 11303,
+    "sha256": "05690bf625a09a3c772976f533a37d34f419cde990bc252f756d63bb69b4a0b6"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-40x40@1x.png",
+    "bytes": 3277,
+    "sha256": "68aa54e4408563550100e41ae2c36172f775852eeb8867543d0802d2ebae4486"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-40x40@2x-1.png",
+    "bytes": 10010,
+    "sha256": "05c8bf020792f5629049ecc361a54b709e0e77956aee14a8fad92ca0ec4ffefa"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-40x40@2x.png",
+    "bytes": 10010,
+    "sha256": "05c8bf020792f5629049ecc361a54b709e0e77956aee14a8fad92ca0ec4ffefa"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-40x40@3x.png",
+    "bytes": 17651,
+    "sha256": "0fec52547d536f3557d353a83fb89255e0707ae852fe13b007d8adc365b02443"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-512@2x.png",
+    "bytes": 63690,
+    "sha256": "d89e28c54a5481aef6fcd95e82b41e3e331c46513c824cf57eaa17cd4c24457a"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-60x60@2x.png",
+    "bytes": 17651,
+    "sha256": "0fec52547d536f3557d353a83fb89255e0707ae852fe13b007d8adc365b02443"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-60x60@3x.png",
+    "bytes": 30778,
+    "sha256": "8bcd7e229d32506349531127487cfcbc980287f7828a6ecc9e1566dbd130f051"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-76x76@1x.png",
+    "bytes": 9260,
+    "sha256": "318dbe95fd664a524e620b6bbee573e001033a82bf18a60fc18ed6cb078705a0"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-76x76@2x.png",
+    "bytes": 24547,
+    "sha256": "bfc757003101bf0ab45db5a43dca6247b5fee2409de4abdc7c237a1f760f04f4"
+  },
+  {
+    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png",
+    "bytes": 27675,
+    "sha256": "480207240d61da42b4c6b0df4db08447d3534e81e0debd7be5fa1257dcd1b6c2"
+  },
+  {
+    "path": "worldmonitor/src-tauri/notices/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "worldmonitor/src-tauri/nsis/installer-hooks.nsh",
+    "bytes": 1060,
+    "sha256": "087b046bd04342cbbb2b51c2161d6a8b1801c4caf18d8a9bd8441eb914ddf220"
+  },
+  {
+    "path": "worldmonitor/src-tauri/open-url-safety.test.mjs",
+    "bytes": 5221,
+    "sha256": "3178289dc3605796c1357741bdebf467884aeeef32bac3f50fcf319f8ff3656d"
+  },
+  {
+    "path": "worldmonitor/src-tauri/sidecar/local-api-server.mjs",
+    "bytes": 105784,
+    "sha256": "28f23342f3b5b48adabaee8f1b416ade1ef775bdab2783983a2aa501a2d25833"
+  },
+  {
+    "path": "worldmonitor/src-tauri/sidecar/local-api-server.test.mjs",
+    "bytes": 161839,
+    "sha256": "21284358077edc241846c971e900ade830acd13258e8efc7678ca2916d3690f2"
+  },
+  {
+    "path": "worldmonitor/src-tauri/sidecar/node/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "worldmonitor/src-tauri/sidecar/package.json",
+    "bytes": 21,
+    "sha256": "5a065fe7d8eab2a582f428e11c2ea63aaf70607a54f69cfd5c711b5c53d91b32"
+  },
+  {
+    "path": "worldmonitor/src-tauri/sidecar/youtube-embed-message.test.mjs",
+    "bytes": 3926,
+    "sha256": "dc26eceab2ec938e012afd0e8d5977cb90003cf1672b4c0f1111b0aa04a83908"
+  },
+  {
+    "path": "worldmonitor/src-tauri/src/cache_bounds.rs",
+    "bytes": 1869,
+    "sha256": "0fb86450f6655b0edc570824a040802bbff83aa88deaaf409a2cfdb9fb31234b"
+  },
+  {
+    "path": "worldmonitor/src-tauri/src/clerk_relay.rs",
+    "bytes": 11920,
+    "sha256": "73ac8de72e237ea49a8da0ad9958e05aeaa1c42d52a818cbced8f77f5fafd2a6"
+  },
+  {
+    "path": "worldmonitor/src-tauri/src/desktop_sign_in.rs",
+    "bytes": 23157,
+    "sha256": "190d5e54ea9b420543596d851b39650d6f475f5e2cd3d3b76d4b95a2f759f321"
+  },
+  {
+    "path": "worldmonitor/src-tauri/src/main.rs",
+    "bytes": 107880,
+    "sha256": "5c1b68c3d09b5d3d00f4eb03ff8cdcf2a23bc314c2a45dceeeecd60c697d32a3"
+  },
+  {
+    "path": "worldmonitor/src-tauri/tauri.conf.json",
+    "bytes": 3029,
+    "sha256": "a0c09a7d02ff51da2506a9ea1a45fcb0236d7e1a73556985e6a1bf0875752bb2"
+  },
+  {
     "path": "worldmonitor/src/App.ts",
     "bytes": 203407,
     "sha256": "14d3c2ec6cbed3260a27a2911218dc45d331a3bc4a20ed7f6602df72c6233bad"
@@ -27175,6 +27675,21 @@
     "sha256": "f8389a890dbff49c5e1d6bb77e91082836a557ffa070138ae39978136cf53f0e"
   },
   {
+    "path": "worldmonitor/src/components/map-cluster-gl.ts",
+    "bytes": 1952,
+    "sha256": "cae2c3bcf81bfa92c067d35653a70cb3e3aaf8e803484bd100b4c944bfc43e35"
+  },
+  {
+    "path": "worldmonitor/src/components/map-interaction-guard.ts",
+    "bytes": 2481,
+    "sha256": "b8e95255398415983f820310e5647260138a05103bf9b875e270f2d3547689ee"
+  },
+  {
+    "path": "worldmonitor/src/components/map-popup-source-links.ts",
+    "bytes": 1208,
+    "sha256": "f977434a5251ff10d4cfdacd7030a563759981504a208f803de1c06e81454e0d"
+  },
+  {
     "path": "worldmonitor/src/components/map/china-corridor-overlay.ts",
     "bytes": 1159,
     "sha256": "330d7547e40cbc190fa13cd8a46d915f0b034869dc5c027ac74e131c7b023e18"
@@ -27223,21 +27738,6 @@
     "path": "worldmonitor/src/components/map/zoom-hint-guard.ts",
     "bytes": 3054,
     "sha256": "8d5c924246d02c865185b2765c9fdf9f763fc46ddb72dfaadcc29f7896b873fc"
-  },
-  {
-    "path": "worldmonitor/src/components/map-cluster-gl.ts",
-    "bytes": 1952,
-    "sha256": "cae2c3bcf81bfa92c067d35653a70cb3e3aaf8e803484bd100b4c944bfc43e35"
-  },
-  {
-    "path": "worldmonitor/src/components/map-interaction-guard.ts",
-    "bytes": 2481,
-    "sha256": "b8e95255398415983f820310e5647260138a05103bf9b875e270f2d3547689ee"
-  },
-  {
-    "path": "worldmonitor/src/components/map-popup-source-links.ts",
-    "bytes": 1208,
-    "sha256": "f977434a5251ff10d4cfdacd7030a563759981504a208f803de1c06e81454e0d"
   },
   {
     "path": "worldmonitor/src/components/market-chart-interactions.ts",
@@ -27800,6 +28300,11 @@
     "sha256": "bb5d8c791c84bee23640673318b396c5cf0c2d9ec5865606fa16ea84e6524dca"
   },
   {
+    "path": "worldmonitor/src/embed-main.ts",
+    "bytes": 4686,
+    "sha256": "17eef40dcd98357f2c825b608f4af3cd5485a37f96ed6bd6575b402839d05a14"
+  },
+  {
     "path": "worldmonitor/src/embed/embed-credential.ts",
     "bytes": 2778,
     "sha256": "26863e4f390dcf8ced672c5c1cd4046b7dc562d9310c6ea531714a4a9ea5f1a1"
@@ -27833,11 +28338,6 @@
     "path": "worldmonitor/src/embed/panels/map.ts",
     "bytes": 2499,
     "sha256": "5c175bf339d92f70c8d2579531469f5f07c15f20938872efb1f416e0d8a1d717"
-  },
-  {
-    "path": "worldmonitor/src/embed-main.ts",
-    "bytes": 4686,
-    "sha256": "17eef40dcd98357f2c825b608f4af3cd5485a37f96ed6bd6575b402839d05a14"
   },
   {
     "path": "worldmonitor/src/features/stock-research/stock-research-overlay.ts",
@@ -29335,14 +29835,14 @@
     "sha256": "242c29ac1575385c372e63c5408190546d473edb4bc21365419109cc9a91116c"
   },
   {
-    "path": "worldmonitor/src/services/infrastructure/index.ts",
-    "bytes": 10684,
-    "sha256": "8a976442f264ac69112c1906b59dd5757e6fbb0a137b907b9c47417a8d0b7d20"
-  },
-  {
     "path": "worldmonitor/src/services/infrastructure-cascade.ts",
     "bytes": 3368,
     "sha256": "19376fd5f77f94629796f8c957f9299eb8147ddfb74c2155f3f93c3dfe1c3f0f"
+  },
+  {
+    "path": "worldmonitor/src/services/infrastructure/index.ts",
+    "bytes": 10684,
+    "sha256": "8a976442f264ac69112c1906b59dd5757e6fbb0a137b907b9c47417a8d0b7d20"
   },
   {
     "path": "worldmonitor/src/services/insider-transactions.ts",
@@ -29435,11 +29935,6 @@
     "sha256": "663b0dde93bbb3ffa84079ffa1c9abe4441c959303418712ec8e5bc5138cdedc"
   },
   {
-    "path": "worldmonitor/src/services/market/index.ts",
-    "bytes": 17563,
-    "sha256": "4ee8b408769c059387ae0e28ab767db3e3f28be4b7ad71a02b956e071b0c933c"
-  },
-  {
     "path": "worldmonitor/src/services/market-availability.ts",
     "bytes": 1472,
     "sha256": "455ac244f58928c5be443ce77f06cf702b810e596adaf68b877d9252db626225"
@@ -29465,6 +29960,11 @@
     "sha256": "a560c7a6851cf00c0e6d3857779931b9bb9e51ea8c7f994c5382c2c1cba904bb"
   },
   {
+    "path": "worldmonitor/src/services/market/index.ts",
+    "bytes": 17563,
+    "sha256": "4ee8b408769c059387ae0e28ab767db3e3f28be4b7ad71a02b956e071b0c933c"
+  },
+  {
     "path": "worldmonitor/src/services/mcp-clients.ts",
     "bytes": 5311,
     "sha256": "13d19d1ab80f4e5b09d5a8afbe2169a76cb51c46d2bf9347439d4c2aeb202515"
@@ -29483,11 +29983,6 @@
     "path": "worldmonitor/src/services/meta-tags.ts",
     "bytes": 5724,
     "sha256": "b70e50432db4480560bf71fa6708f47fdaee63d75d3b5c01e6780b55e0c1a6ea"
-  },
-  {
-    "path": "worldmonitor/src/services/military/index.ts",
-    "bytes": 640,
-    "sha256": "55891ca050eb06b9cc09e63141dc07aa683178a0f1efe1b7dce078b63a9a4d2f"
   },
   {
     "path": "worldmonitor/src/services/military-base-config.ts",
@@ -29520,6 +30015,11 @@
     "sha256": "4cf989a4cd764a8be07f31c64314c38ba9d4c397f81ba2eff925efacaf6e369b"
   },
   {
+    "path": "worldmonitor/src/services/military/index.ts",
+    "bytes": 640,
+    "sha256": "55891ca050eb06b9cc09e63141dc07aa683178a0f1efe1b7dce078b63a9a4d2f"
+  },
+  {
     "path": "worldmonitor/src/services/mission-presets.ts",
     "bytes": 16962,
     "sha256": "363fcbcba817384f498dc499a583bc6fc6e8077e6737b4f32b37f2caade0f5e7"
@@ -29540,11 +30040,6 @@
     "sha256": "312a69211b3c8850f448673b18bee331b99fd4d08f3716850b20034a13301626"
   },
   {
-    "path": "worldmonitor/src/services/news/index.ts",
-    "bytes": 646,
-    "sha256": "a7b1481f4bbf404a2b1bab5d33e352d90b6707e23595897e5c27ac97cdba24b8"
-  },
-  {
     "path": "worldmonitor/src/services/news-digest-items.ts",
     "bytes": 2662,
     "sha256": "4e50f0803f25e08175a05aba516178fc7152de1f272e61677326817ea46663f1"
@@ -29553,6 +30048,11 @@
     "path": "worldmonitor/src/services/news-market-correlation.ts",
     "bytes": 9932,
     "sha256": "71b273c6a5e7c82fd8c9d95e68b3fc8e2366fb47148f8214363c8acc22abbfdc"
+  },
+  {
+    "path": "worldmonitor/src/services/news/index.ts",
+    "bytes": 646,
+    "sha256": "a7b1481f4bbf404a2b1bab5d33e352d90b6707e23595897e5c27ac97cdba24b8"
   },
   {
     "path": "worldmonitor/src/services/no2-activity.ts",
@@ -30823,366 +31323,6 @@
     "path": "worldmonitor/src/workers/vector-db.ts",
     "bytes": 7444,
     "sha256": "3ed1fd238f1bc06720624a24dba036e8c35b564c95d435bce02cd843342a702e"
-  },
-  {
-    "path": "worldmonitor/src-tauri/.cargo/config.local.toml.example",
-    "bytes": 384,
-    "sha256": "82f823530492fb05ad17edd88a535510edb74f0dc959ebde80515bb9d8cf0c3e"
-  },
-  {
-    "path": "worldmonitor/src-tauri/.cargo/config.toml",
-    "bytes": 637,
-    "sha256": "5efcea1ab2dae73cd1d60b9ee06bf14e40f90c53aee101ca299b8145bc49efd5"
-  },
-  {
-    "path": "worldmonitor/src-tauri/.gitignore",
-    "bytes": 39,
-    "sha256": "35483080e30621eea1f761aa4150f841144f642bfcba1f7be61475290475152d"
-  },
-  {
-    "path": "worldmonitor/src-tauri/Cargo.lock",
-    "bytes": 135387,
-    "sha256": "51290a29297ac5a2e0d344bd3b0f121eec9934877d968af20db59ee6ad2345bc"
-  },
-  {
-    "path": "worldmonitor/src-tauri/Cargo.toml",
-    "bytes": 837,
-    "sha256": "7de63d8b816bafce1dd2f945294c1f1bab6b8686017f293f88aa960ad32262d9"
-  },
-  {
-    "path": "worldmonitor/src-tauri/build.rs",
-    "bytes": 39,
-    "sha256": "487059eaf8a947b80f20a9aacac038a5047b2ad69d2401b827376c67d6fe847f"
-  },
-  {
-    "path": "worldmonitor/src-tauri/capabilities/default.json",
-    "bytes": 209,
-    "sha256": "9be875c0eb69f68283a38141c0adde16ca3b06277a394bdd0703f5de3310743d"
-  },
-  {
-    "path": "worldmonitor/src-tauri/capabilities/live-channels.json",
-    "bytes": 229,
-    "sha256": "8735b91fd4211a25d6d89f79fcda9a28232ebaf37496bc776f6b88e2f3ae4a00"
-  },
-  {
-    "path": "worldmonitor/src-tauri/capabilities/settings.json",
-    "bytes": 213,
-    "sha256": "0ab117cfd8df2c8e817e3ec5503b0a0ab63a7c2707ab9a7bf80af9238b932ce7"
-  },
-  {
-    "path": "worldmonitor/src-tauri/capabilities/youtube-login.json",
-    "bytes": 250,
-    "sha256": "1811170b91ed0ced5bdcbcd1612a1801395b360a351db88ab44c844717d0256a"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/128x128.png",
-    "bytes": 21183,
-    "sha256": "8c7d9f111f4f27f3e7261b1aac9089f8e031c8b52ccfda8e6a361796e14bd3c6"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/128x128@2x.png",
-    "bytes": 50807,
-    "sha256": "c2f01889144fa0137a21347c8eba494803526db6cf8bed20d9d0b30fb046000d"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/32x32.png",
-    "bytes": 2448,
-    "sha256": "d2e45a5107181acf5a47c7fefd519df1a5ac1360418b937c9b2e14b12610c4ec"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/Square107x107Logo.png",
-    "bytes": 16360,
-    "sha256": "83fdc1f4afcde8a98f44ba18ad0ef5059877851da67334b69d9e24dd864effcb"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/Square142x142Logo.png",
-    "bytes": 24540,
-    "sha256": "e8a5426678014ac96db9887b0d54dc67922e5d7d47cd9c11e3f9d861e8048986"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/Square150x150Logo.png",
-    "bytes": 26312,
-    "sha256": "f63321b5f4c877e78a863fcdf8380f36bebba63c72e9efbaf08e2ff36debdc8b"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/Square284x284Logo.png",
-    "bytes": 61139,
-    "sha256": "4749d23399b1e86756316817fdef0348844dd374fa1e306a0c25b26e35934786"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/Square30x30Logo.png",
-    "bytes": 2210,
-    "sha256": "70502c3efc6075ab80dab341308d63b2d17133a30e7186d8cbe939c11a92c9ce"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/Square310x310Logo.png",
-    "bytes": 68770,
-    "sha256": "cd1a424635bdf1055120040ac061a43f315dead600d1241e0018f9c72b1669b1"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/Square44x44Logo.png",
-    "bytes": 4288,
-    "sha256": "7ce25d5083a159501bf253869e45817f4a1b95db2cae72ab737ebe1f62718bbd"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/Square71x71Logo.png",
-    "bytes": 9204,
-    "sha256": "895d3c8aef28dde64e233c8cd0dc97ef98a77f2928360314be64bb01765f32f4"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/Square89x89Logo.png",
-    "bytes": 12665,
-    "sha256": "130d0f7cdfc3cefb4ade829427b475d4ab328d7809d26bb15f8da8d024fcc3b5"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/StoreLogo.png",
-    "bytes": 5217,
-    "sha256": "9dfeabdad2cd8e1ee5541d0b5bc49f30d25822f33076f0a8504ada5e057926c5"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-hdpi/ic_launcher.png",
-    "bytes": 5099,
-    "sha256": "e31eba22852449e8a2e793f355c8679054861a609ae1e78409a3834eb96d2bd6"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png",
-    "bytes": 29393,
-    "sha256": "5cec60eb7a502080bf0c2e8ed5401d1ec48ed9b4f306f74d9f3198f663d460d9"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png",
-    "bytes": 5099,
-    "sha256": "e31eba22852449e8a2e793f355c8679054861a609ae1e78409a3834eb96d2bd6"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-mdpi/ic_launcher.png",
-    "bytes": 4901,
-    "sha256": "20759b27522dc917d22fd697d48366705b74ccc089ac4b04b03c77b575c12b48"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png",
-    "bytes": 16567,
-    "sha256": "2dc65473fb46ceda32c3eaf81dd3016d478f5798bd444a92572598314e46222a"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png",
-    "bytes": 4901,
-    "sha256": "20759b27522dc917d22fd697d48366705b74ccc089ac4b04b03c77b575c12b48"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png",
-    "bytes": 14139,
-    "sha256": "e903f3a89552374cd0647703b9bf5a6b2c22460886391d7918f3b488185de92f"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png",
-    "bytes": 42955,
-    "sha256": "225c038aa56c299819f9db8ecdd12ddbd842a35258c3ca577816bc34230ebcab"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png",
-    "bytes": 14139,
-    "sha256": "e903f3a89552374cd0647703b9bf5a6b2c22460886391d7918f3b488185de92f"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png",
-    "bytes": 24991,
-    "sha256": "46bbfd5f85b5cceb4335001ef233e5f3ebf7fdb7dfd0205d9c3944fdf347758f"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png",
-    "bytes": 73537,
-    "sha256": "e1c71b6532ebd98ca18862cb274d11230151697483b848d4d4ee62ae45bc753d"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png",
-    "bytes": 24991,
-    "sha256": "46bbfd5f85b5cceb4335001ef233e5f3ebf7fdb7dfd0205d9c3944fdf347758f"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png",
-    "bytes": 37050,
-    "sha256": "aa1600067e145d4d2a8fd00322075262c30b8100b49fc57fac97d567bc64cfa5"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png",
-    "bytes": 107682,
-    "sha256": "872e651ea14aa59a4471c11647e8e50d1c6cf964c572188c017164ffb8280fbb"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png",
-    "bytes": 37050,
-    "sha256": "aa1600067e145d4d2a8fd00322075262c30b8100b49fc57fac97d567bc64cfa5"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/icon.icns",
-    "bytes": 404176,
-    "sha256": "515362286895a54d56bc2c3bedb80debbfc8eaef779b8509cccd736a024f3c96"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/icon.ico",
-    "bytes": 70480,
-    "sha256": "5c9e609f3512a955c7a3b088133a72fd208fe47b1a856e027ecc372849ad7c46"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/icon.png",
-    "bytes": 101662,
-    "sha256": "e6f8d9a232bf55360d896f969ee38557c046e2d9f332e2fbded75c92680b6003"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-20x20@1x.png",
-    "bytes": 1079,
-    "sha256": "2daf49be99d4c2c4cc733ba175a073a4d5614b150f5fa01fbf67af966dd46737"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-20x20@2x-1.png",
-    "bytes": 3277,
-    "sha256": "68aa54e4408563550100e41ae2c36172f775852eeb8867543d0802d2ebae4486"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-20x20@2x.png",
-    "bytes": 3277,
-    "sha256": "68aa54e4408563550100e41ae2c36172f775852eeb8867543d0802d2ebae4486"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-20x20@3x.png",
-    "bytes": 6434,
-    "sha256": "2e24b88af153842229d580dc13fd30bcea05ccad81f4b87c426f8ab85a9fd834"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-29x29@1x.png",
-    "bytes": 1953,
-    "sha256": "30f93afac7f17272e3b4af75689c4b866c8486c176ef33a62f6736b5e50075bf"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-29x29@2x-1.png",
-    "bytes": 6125,
-    "sha256": "2a990fcff6d53300fe2cca826e48d01d80557115fd79a67d60dc497ea32ddd43"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-29x29@2x.png",
-    "bytes": 6125,
-    "sha256": "2a990fcff6d53300fe2cca826e48d01d80557115fd79a67d60dc497ea32ddd43"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-29x29@3x.png",
-    "bytes": 11303,
-    "sha256": "05690bf625a09a3c772976f533a37d34f419cde990bc252f756d63bb69b4a0b6"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-40x40@1x.png",
-    "bytes": 3277,
-    "sha256": "68aa54e4408563550100e41ae2c36172f775852eeb8867543d0802d2ebae4486"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-40x40@2x-1.png",
-    "bytes": 10010,
-    "sha256": "05c8bf020792f5629049ecc361a54b709e0e77956aee14a8fad92ca0ec4ffefa"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-40x40@2x.png",
-    "bytes": 10010,
-    "sha256": "05c8bf020792f5629049ecc361a54b709e0e77956aee14a8fad92ca0ec4ffefa"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-40x40@3x.png",
-    "bytes": 17651,
-    "sha256": "0fec52547d536f3557d353a83fb89255e0707ae852fe13b007d8adc365b02443"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-512@2x.png",
-    "bytes": 63690,
-    "sha256": "d89e28c54a5481aef6fcd95e82b41e3e331c46513c824cf57eaa17cd4c24457a"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-60x60@2x.png",
-    "bytes": 17651,
-    "sha256": "0fec52547d536f3557d353a83fb89255e0707ae852fe13b007d8adc365b02443"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-60x60@3x.png",
-    "bytes": 30778,
-    "sha256": "8bcd7e229d32506349531127487cfcbc980287f7828a6ecc9e1566dbd130f051"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-76x76@1x.png",
-    "bytes": 9260,
-    "sha256": "318dbe95fd664a524e620b6bbee573e001033a82bf18a60fc18ed6cb078705a0"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-76x76@2x.png",
-    "bytes": 24547,
-    "sha256": "bfc757003101bf0ab45db5a43dca6247b5fee2409de4abdc7c237a1f760f04f4"
-  },
-  {
-    "path": "worldmonitor/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png",
-    "bytes": 27675,
-    "sha256": "480207240d61da42b4c6b0df4db08447d3534e81e0debd7be5fa1257dcd1b6c2"
-  },
-  {
-    "path": "worldmonitor/src-tauri/notices/.gitkeep",
-    "bytes": 0,
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  },
-  {
-    "path": "worldmonitor/src-tauri/nsis/installer-hooks.nsh",
-    "bytes": 1060,
-    "sha256": "087b046bd04342cbbb2b51c2161d6a8b1801c4caf18d8a9bd8441eb914ddf220"
-  },
-  {
-    "path": "worldmonitor/src-tauri/open-url-safety.test.mjs",
-    "bytes": 5221,
-    "sha256": "3178289dc3605796c1357741bdebf467884aeeef32bac3f50fcf319f8ff3656d"
-  },
-  {
-    "path": "worldmonitor/src-tauri/sidecar/local-api-server.mjs",
-    "bytes": 105784,
-    "sha256": "28f23342f3b5b48adabaee8f1b416ade1ef775bdab2783983a2aa501a2d25833"
-  },
-  {
-    "path": "worldmonitor/src-tauri/sidecar/local-api-server.test.mjs",
-    "bytes": 161839,
-    "sha256": "21284358077edc241846c971e900ade830acd13258e8efc7678ca2916d3690f2"
-  },
-  {
-    "path": "worldmonitor/src-tauri/sidecar/node/.gitkeep",
-    "bytes": 0,
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  },
-  {
-    "path": "worldmonitor/src-tauri/sidecar/package.json",
-    "bytes": 21,
-    "sha256": "5a065fe7d8eab2a582f428e11c2ea63aaf70607a54f69cfd5c711b5c53d91b32"
-  },
-  {
-    "path": "worldmonitor/src-tauri/sidecar/youtube-embed-message.test.mjs",
-    "bytes": 3926,
-    "sha256": "dc26eceab2ec938e012afd0e8d5977cb90003cf1672b4c0f1111b0aa04a83908"
-  },
-  {
-    "path": "worldmonitor/src-tauri/src/cache_bounds.rs",
-    "bytes": 1869,
-    "sha256": "0fb86450f6655b0edc570824a040802bbff83aa88deaaf409a2cfdb9fb31234b"
-  },
-  {
-    "path": "worldmonitor/src-tauri/src/clerk_relay.rs",
-    "bytes": 11920,
-    "sha256": "73ac8de72e237ea49a8da0ad9958e05aeaa1c42d52a818cbced8f77f5fafd2a6"
-  },
-  {
-    "path": "worldmonitor/src-tauri/src/desktop_sign_in.rs",
-    "bytes": 23157,
-    "sha256": "190d5e54ea9b420543596d851b39650d6f475f5e2cd3d3b76d4b95a2f759f321"
-  },
-  {
-    "path": "worldmonitor/src-tauri/src/main.rs",
-    "bytes": 107880,
-    "sha256": "5c1b68c3d09b5d3d00f4eb03ff8cdcf2a23bc314c2a45dceeeecd60c697d32a3"
-  },
-  {
-    "path": "worldmonitor/src-tauri/tauri.conf.json",
-    "bytes": 3029,
-    "sha256": "a0c09a7d02ff51da2506a9ea1a45fcb0236d7e1a73556985e6a1bf0875752bb2"
   },
   {
     "path": "worldmonitor/tests/511-rate-limit.test.mjs",
@@ -34555,6 +34695,16 @@
     "sha256": "c1c8e394a883f90096922ed5c3e6555ee787cb09dcc79231bb4df7d808efe9d9"
   },
   {
+    "path": "worldmonitor/tests/dom-quiescence.test.mts",
+    "bytes": 5647,
+    "sha256": "c77a239f892691552540fd63912e6698b0a7bc2893b08f182ef0d37fed37d8c9"
+  },
+  {
+    "path": "worldmonitor/tests/dom-utils.test.mts",
+    "bytes": 10811,
+    "sha256": "d17d776a5120024fe3844b2985d8081183cd0b59bb1493a73eb0fbc236bafd75"
+  },
+  {
     "path": "worldmonitor/tests/dom/account-deletion-completion-proof.test.mts",
     "bytes": 5407,
     "sha256": "5cb27ce2bccfa6b6b0d012a995c5b856cd22bb50db1b50612832246a22e98ef0"
@@ -36148,16 +36298,6 @@
     "path": "worldmonitor/tests/dom/youtube-iframe-api-loader.test.mts",
     "bytes": 1853,
     "sha256": "1d908ac0fdd63abf98bac76c11757f346f84004aa36843018b41cfd675bb69f9"
-  },
-  {
-    "path": "worldmonitor/tests/dom-quiescence.test.mts",
-    "bytes": 5647,
-    "sha256": "c77a239f892691552540fd63912e6698b0a7bc2893b08f182ef0d37fed37d8c9"
-  },
-  {
-    "path": "worldmonitor/tests/dom-utils.test.mts",
-    "bytes": 10811,
-    "sha256": "d17d776a5120024fe3844b2985d8081183cd0b59bb1493a73eb0fbc236bafd75"
   },
   {
     "path": "worldmonitor/tests/dosm-product-demand.test.mjs",

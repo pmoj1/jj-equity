@@ -14,3 +14,7 @@ The source files retain their historical project status and evidence limits. No 
 - local assistant configuration: 1 files
 - private environment configuration: 1 files
 - private runtime database or key: 5 files
+
+## 17 November 2026 update
+
+J&J Equity 1.3.0 adds the personalized four-desk interface, safer portfolio validation, provider status, workspace backups and updated desktop packaging. Local verification and selected current screenshots are in `docs/VERIFICATION.md`. Source now lives in `app/`; retained notices document its origins. Dependencies, private configuration, working databases, test fixtures created during manual verification, generated runtimes and installers remain excluded.

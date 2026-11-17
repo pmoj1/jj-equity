@@ -1,0 +1,61 @@
+{
+  "name": "jj-equity",
+  "version": "1.3.0",
+  "description": "J&J Equity personal market and intelligence research workspace",
+  "author": "Jay-deane Huni",
+  "license": "AGPL-3.0-only",
+  "main": "main.cjs",
+  "build": {
+    "appId": "com.jjequity.desktop",
+    "productName": "J&J Equity",
+    "directories": {
+      "output": "../../outputs"
+    },
+    "files": [
+      "main.cjs",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "runtime",
+        "to": "runtime",
+        "filter": [
+          "**/*",
+          "!**/.env*",
+          "!**/data/*.db*",
+          "!**/data/.api-key"
+        ]
+      }
+    ],
+    "npmRebuild": false,
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64"
+          ]
+        }
+      ],
+      "category": "public.app-category.finance",
+      "identity": null
+    },
+    "dmg": {
+      "title": "J&J Equity",
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "artifactName": "J&J-Equity-${version}-${arch}.${ext}",
+    "electronVersion": "42.11.18"
+  }
+}
